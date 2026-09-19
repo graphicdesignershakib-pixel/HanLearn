@@ -19,12 +19,16 @@ service cloud.firestore {
       );
     }
 
-    // User profiles
+    // User profiles & user-specific data
     match /users/{userId} {
       allow read: if isSignedIn();
       allow create: if isSignedIn() && request.auth.uid == userId;
       allow update: if isOwner(userId) || isAdmin();
       allow delete: if isAdmin();
+
+      match /{document=**} {
+        allow read, write: if isOwner(userId) || isAdmin();
+      }
     }
 
     // Educational learning resources

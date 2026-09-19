@@ -10,6 +10,7 @@ import {
 } from "firebase/auth";
 import { doc, getDoc, setDoc, onSnapshot } from "firebase/firestore";
 import { auth, db, googleProvider } from "../lib/firebase";
+import { gamificationService } from "../services/gamificationService";
 
 export type UserRole = "student" | "admin";
 
@@ -88,6 +89,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       } else {
         setProfile(null);
       }
+      // Guarantee each user has their own individual isolated gamification stats
+      gamificationService.setUser(currentUser ? currentUser.uid : null);
       setLoading(false);
     });
 

@@ -48,15 +48,36 @@ import { TonePitchVisualizerPage } from "./pages/TonePitchVisualizerPage";
 import { AdminResourcePage } from "./pages/AdminResourcePage";
 import { CommunityResourcesPage } from "./pages/CommunityResourcesPage";
 import { AuthProtectedGate } from "./components/auth/AuthProtectedGate";
+import { AuthPage } from "./pages/AuthPage";
+import { useAuth } from "./context/AuthContext";
 
 export default function App() {
   const { currentPath, route } = useRouter();
+  const { user, loading } = useAuth();
+
+  // If Firebase Auth is initializing, show seamless clean loader
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-neutral-950 flex flex-col items-center justify-center p-6 text-center text-neutral-300">
+        <div className="w-10 h-10 border-3 border-red-600 border-t-transparent rounded-full animate-spin mb-4" />
+        <p className="text-xs font-semibold tracking-wide text-neutral-400">
+          নিরাপত্তা সিস্টেম লোড হচ্ছে... (Loading HanLearn...)
+        </p>
+      </div>
+    );
+  }
+
+  // If user is NOT logged in: Show ONLY the dedicated full-screen Login & Registration page.
+  // There is NO TopBar, NO Sidebar, NO Quick dictionary, NO other surrounding panels!
+  if (!user) {
+    return <AuthPage />;
+  }
 
   const renderCurrentRoute = () => {
     const { path, params, query } = route;
 
     if (path === "/" || path === "") {
-      return <LandingPage />;
+      return <DashboardPage />;
     }
 
     if (path === "/admin/resources" || path === "/admin") {

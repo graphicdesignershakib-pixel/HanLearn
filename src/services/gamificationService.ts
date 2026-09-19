@@ -1,3 +1,6 @@
+import { doc, getDoc, setDoc } from "firebase/firestore";
+import { db } from "../lib/firebase";
+
 export interface Badge {
   id: string;
   name: string;
@@ -36,8 +39,6 @@ export interface UserGamificationState {
   dailyStreak: number;
 }
 
-const STORAGE_KEY_GAMIFY = "hanlearn_gamification_v1";
-
 const ALL_BADGES: Badge[] = [
   {
     id: "first_word",
@@ -48,8 +49,8 @@ const ALL_BADGES: Badge[] = [
     descriptionBn: "আপনার প্রথম চাইনিজ শব্দ পড়ুন",
     icon: "🌱",
     category: "vocab",
-    unlocked: true,
-    progress: 100,
+    unlocked: false,
+    progress: 0,
   },
   {
     id: "voice_pioneer",
@@ -85,7 +86,7 @@ const ALL_BADGES: Badge[] = [
     icon: "🔥",
     category: "streak",
     unlocked: false,
-    progress: 33,
+    progress: 0,
   },
   {
     id: "srs_champion",
@@ -97,7 +98,7 @@ const ALL_BADGES: Badge[] = [
     icon: "🎴",
     category: "vocab",
     unlocked: false,
-    progress: 20,
+    progress: 0,
   },
   {
     id: "ink_master",
@@ -109,7 +110,7 @@ const ALL_BADGES: Badge[] = [
     icon: "🖌️",
     category: "writing",
     unlocked: false,
-    progress: 40,
+    progress: 0,
   },
   {
     id: "exam_conqueror",
@@ -145,7 +146,7 @@ const ALL_BADGES: Badge[] = [
     icon: "🔍",
     category: "vocab",
     unlocked: false,
-    progress: 30,
+    progress: 0,
   },
 ];
 
@@ -155,7 +156,7 @@ const INITIAL_QUESTS: DailyQuest[] = [
     title: "Review 10 SRS Flashcards",
     titleBn: "১০টি ফ্ল্যাশকার্ড পর্যালোচনা করুন",
     target: 10,
-    current: 4,
+    current: 0,
     rewardXp: 50,
     completed: false,
     claimed: false,
@@ -185,7 +186,7 @@ const INITIAL_QUESTS: DailyQuest[] = [
     title: "Practice Hanzi stroke order on Tian-Zi-Ge",
     titleBn: "তিয়ান-জি-গে গ্রিডে হানজি লিখুন",
     target: 3,
-    current: 1,
+    current: 0,
     rewardXp: 40,
     completed: false,
     claimed: false,
@@ -195,49 +196,167 @@ const INITIAL_QUESTS: DailyQuest[] = [
 class GamificationService {
   private state: UserGamificationState;
   private listeners: (() => void)[] = [];
+  private currentUserId: string | null = null;
 
   constructor() {
-    this.state = this.loadState();
+    if (typeof window !== "undefined") {
+      try {
+        localStorage.removeItem("hanlearn_gamification_v1");
+      } catch {
+        // ignore
+      }
+    }
+    this.state = this.getDefaultState();
   }
 
-  private loadState(): UserGamificationState {
-    if (typeof window === "undefined") {
-      return this.getDefaultState();
-    }
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY_GAMIFY);
-      if (saved) {
-        return JSON.parse(saved);
-      }
-    } catch {
-      // fallback
-    }
-    return this.getDefaultState();
+  private getStorageKey(): string {
+    return this.currentUserId
+      ? `hanlearn_gamification_uid_${this.currentUserId}`
+      : "hanlearn_gamification_guest";
   }
 
   private getDefaultState(): UserGamificationState {
     return {
-      xp: 240,
-      level: 2,
-      levelTitle: "Hanzi Apprentice",
-      levelTitleZh: "汉字学徒",
-      levelTitleBn: "হানজি শিক্ষানবিশ",
-      nextLevelXp: 500,
-      badges: ALL_BADGES,
-      quests: INITIAL_QUESTS,
+      xp: 0,
+      level: 1,
+      levelTitle: "Beginner Explorer",
+      levelTitleZh: "初学探索者",
+      levelTitleBn: "নবীন শিক্ষার্থী",
+      nextLevelXp: 100,
+      badges: ALL_BADGES.map((b) => ({ ...b, unlocked: false, progress: 0 })),
+      quests: INITIAL_QUESTS.map((q) => ({
+        ...q,
+        current: 0,
+        completed: false,
+        claimed: false,
+      })),
       lastActiveDate: new Date().toISOString().slice(0, 10),
-      dailyStreak: 3,
+      dailyStreak: 0,
+    };
+  }
+
+  /**
+   * Switches user context to guarantee separate gamification stats per account
+   */
+  public async setUser(userId: string | null): Promise<void> {
+    this.currentUserId = userId;
+
+    if (!userId) {
+      this.state = this.getDefaultState();
+      this.notify();
+      return;
+    }
+
+    // 1. Try to load from user-specific localStorage first for instantaneous UI update
+    const storageKey = `hanlearn_gamification_uid_${userId}`;
+    let loadedFromLocal = false;
+
+    if (typeof window !== "undefined") {
+      try {
+        const saved = localStorage.getItem(storageKey);
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (parsed && typeof parsed.xp === "number") {
+            this.state = this.validateAndNormalizeState(parsed);
+            loadedFromLocal = true;
+          }
+        }
+      } catch {
+        // ignore parse error
+      }
+    }
+
+    if (!loadedFromLocal) {
+      this.state = this.getDefaultState();
+    }
+    this.notify();
+
+    // 2. Sync asynchronously with cloud Firestore for persistent multi-device stats
+    try {
+      const statsDocRef = doc(db, "users", userId, "gamification", "stats");
+      const snap = await getDoc(statsDocRef);
+
+      if (snap.exists()) {
+        const cloudData = snap.data() as UserGamificationState;
+        if (cloudData && typeof cloudData.xp === "number") {
+          // If cloud data is ahead or equal, adopt it
+          if (!loadedFromLocal || cloudData.xp >= this.state.xp) {
+            this.state = this.validateAndNormalizeState(cloudData);
+            if (typeof window !== "undefined") {
+              try {
+                localStorage.setItem(storageKey, JSON.stringify(this.state));
+              } catch {
+                // quota
+              }
+            }
+            this.notify();
+          }
+        }
+      } else {
+        // First time cloud initialization for this user
+        await setDoc(statsDocRef, this.state, { merge: true });
+      }
+    } catch (err) {
+      console.warn("Gamification cloud sync note:", err);
+    }
+  }
+
+  private validateAndNormalizeState(raw: any): UserGamificationState {
+    const fallback = this.getDefaultState();
+    const badgesMap = new Map<string, Record<string, any>>(
+      (Array.isArray(raw.badges) ? raw.badges : []).map((b: any) => [b.id, b])
+    );
+    const questsMap = new Map<string, Record<string, any>>(
+      (Array.isArray(raw.quests) ? raw.quests : []).map((q: any) => [q.id, q])
+    );
+
+    const mergedBadges = ALL_BADGES.map((template) => {
+      const existing = badgesMap.get(template.id);
+      return existing
+        ? ({ ...template, ...existing } as Badge)
+        : { ...template, unlocked: false, progress: 0 };
+    });
+
+    const mergedQuests = INITIAL_QUESTS.map((template) => {
+      const existing = questsMap.get(template.id);
+      return existing
+        ? ({ ...template, ...existing } as DailyQuest)
+        : { ...template, current: 0, completed: false, claimed: false };
+    });
+
+    return {
+      xp: typeof raw.xp === "number" ? raw.xp : fallback.xp,
+      level: typeof raw.level === "number" ? raw.level : fallback.level,
+      levelTitle: raw.levelTitle || fallback.levelTitle,
+      levelTitleZh: raw.levelTitleZh || fallback.levelTitleZh,
+      levelTitleBn: raw.levelTitleBn || fallback.levelTitleBn,
+      nextLevelXp: typeof raw.nextLevelXp === "number" ? raw.nextLevelXp : fallback.nextLevelXp,
+      badges: mergedBadges,
+      quests: mergedQuests,
+      lastActiveDate: raw.lastActiveDate || fallback.lastActiveDate,
+      dailyStreak: typeof raw.dailyStreak === "number" ? raw.dailyStreak : fallback.dailyStreak,
     };
   }
 
   private saveState() {
     if (typeof window !== "undefined") {
       try {
-        localStorage.setItem(STORAGE_KEY_GAMIFY, JSON.stringify(this.state));
+        localStorage.setItem(this.getStorageKey(), JSON.stringify(this.state));
       } catch {
-        // storage quota fallback
+        // storage quota
       }
     }
+
+    // Persist to user's personal Firestore document if logged in
+    if (this.currentUserId) {
+      const userId = this.currentUserId;
+      setDoc(doc(db, "users", userId, "gamification", "stats"), this.state, {
+        merge: true,
+      }).catch((err) => {
+        console.warn("Gamification cloud save note:", err);
+      });
+    }
+
     this.notify();
   }
 
@@ -247,46 +366,58 @@ class GamificationService {
 
   public addXp(amount: number, reason?: string): { leveledUp: boolean; newLevel: number } {
     let newXp = this.state.xp + amount;
-    let newLevel = this.state.level;
+    let newLevel = 1;
     let leveledUp = false;
 
-    // Calculate level based on XP:
-    // Level 1: 0 - 200 XP
-    // Level 2: 201 - 500 XP
-    // Level 3: 501 - 1000 XP
-    // Level 4: 1001 - 1800 XP
-    // Level 5: 1801 - 3000 XP
-    // Level 6+: 3001+ XP
-    if (newXp >= 3000) {
+    // Check streak on first activity of the day
+    const today = new Date().toISOString().slice(0, 10);
+    if (this.state.lastActiveDate !== today) {
+      const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+      if (this.state.lastActiveDate === yesterday) {
+        this.state.dailyStreak += 1;
+      } else {
+        this.state.dailyStreak = 1;
+      }
+      this.state.lastActiveDate = today;
+    }
+
+    // Dynamic Level Progression Calculation
+    if (newXp >= 2500) {
       newLevel = 6;
       this.state.levelTitle = "Chinese Scholar (中国通)";
       this.state.levelTitleZh = "中国通";
       this.state.levelTitleBn = "চাইনিজ পণ্ডিত";
       this.state.nextLevelXp = 5000;
-    } else if (newXp >= 1800) {
+    } else if (newXp >= 1200) {
       newLevel = 5;
       this.state.levelTitle = "Mandarin Master";
       this.state.levelTitleZh = "词汇大师";
       this.state.levelTitleBn = "ম্যান্ডারিন মাস্টার";
-      this.state.nextLevelXp = 3000;
-    } else if (newXp >= 1000) {
+      this.state.nextLevelXp = 2500;
+    } else if (newXp >= 600) {
       newLevel = 4;
       this.state.levelTitle = "Mandarin Adept";
       this.state.levelTitleZh = "汉语达人";
       this.state.levelTitleBn = "ম্যান্ডারিন দক্ষ";
-      this.state.nextLevelXp = 1800;
-    } else if (newXp >= 500) {
+      this.state.nextLevelXp = 1200;
+    } else if (newXp >= 300) {
       newLevel = 3;
       this.state.levelTitle = "Tone Scholar";
       this.state.levelTitleZh = "声调学者";
       this.state.levelTitleBn = "টোন গবেষক";
-      this.state.nextLevelXp = 1000;
-    } else if (newXp >= 200) {
+      this.state.nextLevelXp = 600;
+    } else if (newXp >= 100) {
       newLevel = 2;
       this.state.levelTitle = "Hanzi Apprentice";
       this.state.levelTitleZh = "汉字学徒";
       this.state.levelTitleBn = "হানজি শিক্ষানবিশ";
-      this.state.nextLevelXp = 500;
+      this.state.nextLevelXp = 300;
+    } else {
+      newLevel = 1;
+      this.state.levelTitle = "Beginner Explorer";
+      this.state.levelTitleZh = "初学探索者";
+      this.state.levelTitleBn = "নবীন শিক্ষার্থী";
+      this.state.nextLevelXp = 100;
     }
 
     if (newLevel > this.state.level) {
