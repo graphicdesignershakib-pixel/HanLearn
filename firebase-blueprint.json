@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User profile with role (student or admin)",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "role": { "type": "string", "enum": ["student", "admin"] },
+        "createdAt": { "type": "string" },
+        "photoURL": { "type": "string" }
+      },
+      "required": ["uid", "email", "role"]
+    },
+    "ResourceItem": {
+      "title": "ResourceItem",
+      "description": "Learning resources, vocabulary, grammar, reading passages created by admins",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "category": { "type": "string", "enum": ["vocabulary", "grammar", "reading", "culture", "other"] },
+        "hskLevel": { "type": "string" },
+        "contentChinese": { "type": "string" },
+        "pinyin": { "type": "string" },
+        "english": { "type": "string" },
+        "bengali": { "type": "string" },
+        "notes": { "type": "string" },
+        "authorUid": { "type": "string" },
+        "authorEmail": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["title", "category", "contentChinese", "authorUid"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profiles containing role and user details"
+    },
+    "/resources/{resourceId}": {
+      "schema": "ResourceItem",
+      "description": "Admin created educational learning resources"
+    }
+  }
+}

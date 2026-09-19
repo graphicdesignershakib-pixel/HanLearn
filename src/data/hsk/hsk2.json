@@ -1,0 +1,6911 @@
+[
+  {
+    "id": "hsk2-0001",
+    "hskLevel": "2",
+    "hanzi": "啊",
+    "pinyinDisplay": "a",
+    "syllables": [
+      {
+        "base": "a",
+        "tone": 0,
+        "display": "a"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "ah",
+        "partOfSpeech": [
+          "part."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 1,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-啊"
+    ],
+    "alternateReadings": [
+      {
+        "pinyinDisplay": "ā",
+        "syllables": [
+          {
+            "base": "a",
+            "tone": 1,
+            "display": "ā"
+          }
+        ],
+        "note": "(exclamation of surprise) ah!, oh!"
+      }
+    ]
+  },
+  {
+    "id": "hsk2-0002",
+    "hskLevel": "2",
+    "hanzi": "爱好",
+    "pinyinDisplay": "ài hào",
+    "syllables": [
+      {
+        "base": "ai",
+        "tone": 4,
+        "display": "ài"
+      },
+      {
+        "base": "hao",
+        "tone": 4,
+        "display": "hào"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "interests; hobbies",
+        "partOfSpeech": [
+          "n.",
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 2,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-爱",
+      "char-好"
+    ]
+  },
+  {
+    "id": "hsk2-0003",
+    "hskLevel": "2",
+    "hanzi": "白色",
+    "pinyinDisplay": "bái sè",
+    "syllables": [
+      {
+        "base": "bai",
+        "tone": 2,
+        "display": "bái"
+      },
+      {
+        "base": "se",
+        "tone": 4,
+        "display": "sè"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "white",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 3,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-白",
+      "char-色"
+    ]
+  },
+  {
+    "id": "hsk2-0004",
+    "hskLevel": "2",
+    "hanzi": "班",
+    "pinyinDisplay": "bān",
+    "syllables": [
+      {
+        "base": "ban",
+        "tone": 1,
+        "display": "bān"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "class",
+        "partOfSpeech": [
+          "n.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 4,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-班"
+    ]
+  },
+  {
+    "id": "hsk2-0005",
+    "hskLevel": "2",
+    "hanzi": "帮",
+    "pinyinDisplay": "bāng",
+    "syllables": [
+      {
+        "base": "bang",
+        "tone": 1,
+        "display": "bāng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to help, assist",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 5,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-帮"
+    ]
+  },
+  {
+    "id": "hsk2-0006",
+    "hskLevel": "2",
+    "hanzi": "帮忙",
+    "pinyinDisplay": "bāng máng",
+    "syllables": [
+      {
+        "base": "bang",
+        "tone": 1,
+        "display": "bāng"
+      },
+      {
+        "base": "mang",
+        "tone": 2,
+        "display": "máng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "lend a hand",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 6,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-帮",
+      "char-忙"
+    ]
+  },
+  {
+    "id": "hsk2-0007",
+    "hskLevel": "2",
+    "hanzi": "包",
+    "pinyinDisplay": "bāo",
+    "syllables": [
+      {
+        "base": "bao",
+        "tone": 1,
+        "display": "bāo"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "package; bag; to wrap; packet",
+        "partOfSpeech": [
+          "n.",
+          "v.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 7,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-包"
+    ]
+  },
+  {
+    "id": "hsk2-0008",
+    "hskLevel": "2",
+    "hanzi": "本子",
+    "pinyinDisplay": "běn zi",
+    "syllables": [
+      {
+        "base": "ben",
+        "tone": 3,
+        "display": "běn"
+      },
+      {
+        "base": "zi",
+        "tone": 0,
+        "display": "zi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "book",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 8,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-本",
+      "char-子"
+    ]
+  },
+  {
+    "id": "hsk2-0009",
+    "hskLevel": "2",
+    "hanzi": "比",
+    "pinyinDisplay": "bǐ",
+    "syllables": [
+      {
+        "base": "bi",
+        "tone": 3,
+        "display": "bǐ"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to compare",
+        "partOfSpeech": [
+          "v.",
+          "prep."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 9,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-比"
+    ]
+  },
+  {
+    "id": "hsk2-0010",
+    "hskLevel": "2",
+    "hanzi": "笔",
+    "pinyinDisplay": "bǐ",
+    "syllables": [
+      {
+        "base": "bi",
+        "tone": 3,
+        "display": "bǐ"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "writing brush; pen; pencil",
+        "partOfSpeech": [
+          "n.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 10,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-笔"
+    ]
+  },
+  {
+    "id": "hsk2-0011",
+    "hskLevel": "2",
+    "hanzi": "别",
+    "pinyinDisplay": "bié",
+    "syllables": [
+      {
+        "base": "bie",
+        "tone": 2,
+        "display": "bié"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "separate",
+        "partOfSpeech": [
+          "adv."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 11,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-别"
+    ]
+  },
+  {
+    "id": "hsk2-0012",
+    "hskLevel": "2",
+    "hanzi": "不错",
+    "pinyinDisplay": "bú cuò",
+    "syllables": [
+      {
+        "base": "bu",
+        "tone": 2,
+        "display": "bú"
+      },
+      {
+        "base": "cuo",
+        "tone": 4,
+        "display": "cuò"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "correct",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 12,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-不",
+      "char-错"
+    ]
+  },
+  {
+    "id": "hsk2-0013",
+    "hskLevel": "2",
+    "hanzi": "不好意思",
+    "pinyinDisplay": "bù hǎo yì si",
+    "syllables": [
+      {
+        "base": "bu",
+        "tone": 4,
+        "display": "bù"
+      },
+      {
+        "base": "hao",
+        "tone": 3,
+        "display": "hǎo"
+      },
+      {
+        "base": "yi",
+        "tone": 4,
+        "display": "yì"
+      },
+      {
+        "base": "si",
+        "tone": 0,
+        "display": "si"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to feel embarrassed",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 13,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": true,
+    "isIdiom": false,
+    "characterIds": [
+      "char-不",
+      "char-好",
+      "char-意",
+      "char-思"
+    ]
+  },
+  {
+    "id": "hsk2-0014",
+    "hskLevel": "2",
+    "hanzi": "长",
+    "pinyinDisplay": "cháng",
+    "syllables": [
+      {
+        "base": "chang",
+        "tone": 2,
+        "display": "cháng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "long",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 14,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-长"
+    ],
+    "alternateReadings": [
+      {
+        "pinyinDisplay": "zhǎng",
+        "syllables": [
+          {
+            "base": "zhang",
+            "tone": 3,
+            "display": "zhǎng"
+          }
+        ],
+        "note": "to grow, to develop; head, chief, elder"
+      }
+    ]
+  },
+  {
+    "id": "hsk2-0015",
+    "hskLevel": "2",
+    "hanzi": "车站",
+    "pinyinDisplay": "chē zhàn",
+    "syllables": [
+      {
+        "base": "che",
+        "tone": 1,
+        "display": "chē"
+      },
+      {
+        "base": "zhan",
+        "tone": 4,
+        "display": "zhàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "rail station",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 15,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-车",
+      "char-站"
+    ]
+  },
+  {
+    "id": "hsk2-0016",
+    "hskLevel": "2",
+    "hanzi": "出",
+    "pinyinDisplay": "chū",
+    "syllables": [
+      {
+        "base": "chu",
+        "tone": 1,
+        "display": "chū"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to go out",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 16,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-出"
+    ]
+  },
+  {
+    "id": "hsk2-0017",
+    "hskLevel": "2",
+    "hanzi": "出国",
+    "pinyinDisplay": "chū guó",
+    "syllables": [
+      {
+        "base": "chu",
+        "tone": 1,
+        "display": "chū"
+      },
+      {
+        "base": "guo",
+        "tone": 2,
+        "display": "guó"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to go abroad; to leave the country",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 17,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-出",
+      "char-国"
+    ]
+  },
+  {
+    "id": "hsk2-0018",
+    "hskLevel": "2",
+    "hanzi": "出来",
+    "pinyinDisplay": "chū lái",
+    "syllables": [
+      {
+        "base": "chu",
+        "tone": 1,
+        "display": "chū"
+      },
+      {
+        "base": "lai",
+        "tone": 2,
+        "display": "lái"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to come out",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 18,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-出",
+      "char-来"
+    ]
+  },
+  {
+    "id": "hsk2-0019",
+    "hskLevel": "2",
+    "hanzi": "出门",
+    "pinyinDisplay": "chū mén",
+    "syllables": [
+      {
+        "base": "chu",
+        "tone": 1,
+        "display": "chū"
+      },
+      {
+        "base": "men",
+        "tone": 2,
+        "display": "mén"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to go out",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 19,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-出",
+      "char-门"
+    ]
+  },
+  {
+    "id": "hsk2-0020",
+    "hskLevel": "2",
+    "hanzi": "出去",
+    "pinyinDisplay": "chū qù",
+    "syllables": [
+      {
+        "base": "chu",
+        "tone": 1,
+        "display": "chū"
+      },
+      {
+        "base": "qu",
+        "tone": 4,
+        "display": "qù"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to go out",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 20,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-出",
+      "char-去"
+    ]
+  },
+  {
+    "id": "hsk2-0021",
+    "hskLevel": "2",
+    "hanzi": "床",
+    "pinyinDisplay": "chuáng",
+    "syllables": [
+      {
+        "base": "chuang",
+        "tone": 2,
+        "display": "chuáng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "bed; couch; framework",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 21,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-床"
+    ]
+  },
+  {
+    "id": "hsk2-0022",
+    "hskLevel": "2",
+    "hanzi": "词",
+    "pinyinDisplay": "cí",
+    "syllables": [
+      {
+        "base": "ci",
+        "tone": 2,
+        "display": "cí"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "word, speech, statement, or a type of classical Chinese poetry",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 22,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-词"
+    ]
+  },
+  {
+    "id": "hsk2-0023",
+    "hskLevel": "2",
+    "hanzi": "次",
+    "pinyinDisplay": "cì",
+    "syllables": [
+      {
+        "base": "ci",
+        "tone": 4,
+        "display": "cì"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "time; occurrence; next; second",
+        "partOfSpeech": [
+          "adj.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 23,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-次"
+    ]
+  },
+  {
+    "id": "hsk2-0024",
+    "hskLevel": "2",
+    "hanzi": "从",
+    "pinyinDisplay": "cóng",
+    "syllables": [
+      {
+        "base": "cong",
+        "tone": 2,
+        "display": "cóng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "from; since; to follow",
+        "partOfSpeech": [
+          "adv.",
+          "prep."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 24,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-从"
+    ]
+  },
+  {
+    "id": "hsk2-0025",
+    "hskLevel": "2",
+    "hanzi": "从小",
+    "pinyinDisplay": "cóng xiǎo",
+    "syllables": [
+      {
+        "base": "cong",
+        "tone": 2,
+        "display": "cóng"
+      },
+      {
+        "base": "xiao",
+        "tone": 3,
+        "display": "xiǎo"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "from childhood",
+        "partOfSpeech": [
+          "adv."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 25,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-从",
+      "char-小"
+    ]
+  },
+  {
+    "id": "hsk2-0026",
+    "hskLevel": "2",
+    "hanzi": "错",
+    "pinyinDisplay": "cuò",
+    "syllables": [
+      {
+        "base": "cuo",
+        "tone": 4,
+        "display": "cuò"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "wrong",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 26,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-错"
+    ]
+  },
+  {
+    "id": "hsk2-0027",
+    "hskLevel": "2",
+    "hanzi": "打",
+    "pinyinDisplay": "dǎ",
+    "syllables": [
+      {
+        "base": "da",
+        "tone": 3,
+        "display": "dǎ"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to hit, to strike, to make (a phone call)",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 27,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-打"
+    ]
+  },
+  {
+    "id": "hsk2-0028",
+    "hskLevel": "2",
+    "hanzi": "打车",
+    "pinyinDisplay": "dǎ chē",
+    "syllables": [
+      {
+        "base": "da",
+        "tone": 3,
+        "display": "dǎ"
+      },
+      {
+        "base": "che",
+        "tone": 1,
+        "display": "chē"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to take a taxi (in town)",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 28,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-打",
+      "char-车"
+    ]
+  },
+  {
+    "id": "hsk2-0029",
+    "hskLevel": "2",
+    "hanzi": "打开",
+    "pinyinDisplay": "dǎ kāi",
+    "syllables": [
+      {
+        "base": "da",
+        "tone": 3,
+        "display": "dǎ"
+      },
+      {
+        "base": "kai",
+        "tone": 1,
+        "display": "kāi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to open",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 29,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-打",
+      "char-开"
+    ]
+  },
+  {
+    "id": "hsk2-0030",
+    "hskLevel": "2",
+    "hanzi": "但",
+    "pinyinDisplay": "dàn",
+    "syllables": [
+      {
+        "base": "dan",
+        "tone": 4,
+        "display": "dàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "but, however, only, just",
+        "partOfSpeech": [
+          "adv.",
+          "conj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 30,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-但"
+    ]
+  },
+  {
+    "id": "hsk2-0031",
+    "hskLevel": "2",
+    "hanzi": "但是",
+    "pinyinDisplay": "dàn shì",
+    "syllables": [
+      {
+        "base": "dan",
+        "tone": 4,
+        "display": "dàn"
+      },
+      {
+        "base": "shi",
+        "tone": 4,
+        "display": "shì"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "but; however",
+        "partOfSpeech": [
+          "conj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 31,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-但",
+      "char-是"
+    ]
+  },
+  {
+    "id": "hsk2-0032",
+    "hskLevel": "2",
+    "hanzi": "得",
+    "pinyinDisplay": "de",
+    "syllables": [
+      {
+        "base": "de",
+        "tone": 0,
+        "display": "de"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "[particle to connect verb to adverb]",
+        "partOfSpeech": [
+          "part."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 32,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-得"
+    ],
+    "alternateReadings": [
+      {
+        "pinyinDisplay": "dé",
+        "syllables": [
+          {
+            "base": "de",
+            "tone": 2,
+            "display": "dé"
+          }
+        ],
+        "note": "to get, to obtain, to gain"
+      },
+      {
+        "pinyinDisplay": "děi",
+        "syllables": [
+          {
+            "base": "dei",
+            "tone": 3,
+            "display": "děi"
+          }
+        ],
+        "note": "must, have to, need to"
+      }
+    ]
+  },
+  {
+    "id": "hsk2-0033",
+    "hskLevel": "2",
+    "hanzi": "地",
+    "pinyinDisplay": "de",
+    "syllables": [
+      {
+        "base": "de",
+        "tone": 0,
+        "display": "de"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "...ly [particle to connect adverb to verb]",
+        "partOfSpeech": [
+          "part."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 33,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-地"
+    ],
+    "alternateReadings": [
+      {
+        "pinyinDisplay": "dì",
+        "syllables": [
+          {
+            "base": "di",
+            "tone": 4,
+            "display": "dì"
+          }
+        ],
+        "note": "earth, ground, land, place, field"
+      }
+    ]
+  },
+  {
+    "id": "hsk2-0034",
+    "hskLevel": "2",
+    "hanzi": "等",
+    "pinyinDisplay": "děng",
+    "syllables": [
+      {
+        "base": "deng",
+        "tone": 3,
+        "display": "děng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to wait; to wait for",
+        "partOfSpeech": [
+          "v.",
+          "prep."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 34,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-等"
+    ]
+  },
+  {
+    "id": "hsk2-0035",
+    "hskLevel": "2",
+    "hanzi": "地铁",
+    "pinyinDisplay": "dì tiě",
+    "syllables": [
+      {
+        "base": "di",
+        "tone": 4,
+        "display": "dì"
+      },
+      {
+        "base": "tie",
+        "tone": 3,
+        "display": "tiě"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "underground train; tube; metro",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 35,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-地",
+      "char-铁"
+    ]
+  },
+  {
+    "id": "hsk2-0036",
+    "hskLevel": "2",
+    "hanzi": "点",
+    "pinyinDisplay": "diǎn",
+    "syllables": [
+      {
+        "base": "dian",
+        "tone": 3,
+        "display": "diǎn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to order; to light; to nod",
+        "partOfSpeech": [
+          "n.",
+          "v.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 36,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-点"
+    ]
+  },
+  {
+    "id": "hsk2-0037",
+    "hskLevel": "2",
+    "hanzi": "懂",
+    "pinyinDisplay": "dǒng",
+    "syllables": [
+      {
+        "base": "dong",
+        "tone": 3,
+        "display": "dǒng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to understand",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 37,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-懂"
+    ]
+  },
+  {
+    "id": "hsk2-0038",
+    "hskLevel": "2",
+    "hanzi": "动",
+    "pinyinDisplay": "dòng",
+    "syllables": [
+      {
+        "base": "dong",
+        "tone": 4,
+        "display": "dòng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to move, to act, to change",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 38,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-动"
+    ]
+  },
+  {
+    "id": "hsk2-0039",
+    "hskLevel": "2",
+    "hanzi": "饭馆",
+    "pinyinDisplay": "fàng uǎn",
+    "syllables": [
+      {
+        "base": "fang",
+        "tone": 4,
+        "display": "fàng"
+      },
+      {
+        "base": "uan",
+        "tone": 3,
+        "display": "uǎn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "restaurant",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 39,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-饭",
+      "char-馆"
+    ]
+  },
+  {
+    "id": "hsk2-0040",
+    "hskLevel": "2",
+    "hanzi": "飞",
+    "pinyinDisplay": "fēi",
+    "syllables": [
+      {
+        "base": "fei",
+        "tone": 1,
+        "display": "fēi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to fly",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 40,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-飞"
+    ]
+  },
+  {
+    "id": "hsk2-0041",
+    "hskLevel": "2",
+    "hanzi": "高",
+    "pinyinDisplay": "gāo",
+    "syllables": [
+      {
+        "base": "gao",
+        "tone": 1,
+        "display": "gāo"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "high; tall",
+        "partOfSpeech": [
+          "n.",
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 41,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-高"
+    ]
+  },
+  {
+    "id": "hsk2-0042",
+    "hskLevel": "2",
+    "hanzi": "高中",
+    "pinyinDisplay": "gāo zhōng",
+    "syllables": [
+      {
+        "base": "gao",
+        "tone": 1,
+        "display": "gāo"
+      },
+      {
+        "base": "zhong",
+        "tone": 1,
+        "display": "zhōng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "senior high school",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 42,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-高",
+      "char-中"
+    ]
+  },
+  {
+    "id": "hsk2-0043",
+    "hskLevel": "2",
+    "hanzi": "告诉",
+    "pinyinDisplay": "gào su",
+    "syllables": [
+      {
+        "base": "gao",
+        "tone": 4,
+        "display": "gào"
+      },
+      {
+        "base": "su",
+        "tone": 0,
+        "display": "su"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to tell",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 43,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-告",
+      "char-诉"
+    ]
+  },
+  {
+    "id": "hsk2-0044",
+    "hskLevel": "2",
+    "hanzi": "个子",
+    "pinyinDisplay": "gè zi",
+    "syllables": [
+      {
+        "base": "ge",
+        "tone": 4,
+        "display": "gè"
+      },
+      {
+        "base": "zi",
+        "tone": 0,
+        "display": "zi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "height; stature",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 44,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-个",
+      "char-子"
+    ]
+  },
+  {
+    "id": "hsk2-0045",
+    "hskLevel": "2",
+    "hanzi": "跟",
+    "pinyinDisplay": "gēn",
+    "syllables": [
+      {
+        "base": "gen",
+        "tone": 1,
+        "display": "gēn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "with; to follow",
+        "partOfSpeech": [
+          "n.",
+          "v.",
+          "prep."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 45,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-跟"
+    ]
+  },
+  {
+    "id": "hsk2-0046",
+    "hskLevel": "2",
+    "hanzi": "公交车",
+    "pinyinDisplay": "gōng jiāo chē",
+    "syllables": [
+      {
+        "base": "gong",
+        "tone": 1,
+        "display": "gōng"
+      },
+      {
+        "base": "jiao",
+        "tone": 1,
+        "display": "jiāo"
+      },
+      {
+        "base": "che",
+        "tone": 1,
+        "display": "chē"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "public transport vehicle",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 46,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-公",
+      "char-交",
+      "char-车"
+    ]
+  },
+  {
+    "id": "hsk2-0047",
+    "hskLevel": "2",
+    "hanzi": "过",
+    "pinyinDisplay": "guò",
+    "syllables": [
+      {
+        "base": "guo",
+        "tone": 4,
+        "display": "guò"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to celebrate (a birthday)",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 47,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-过"
+    ],
+    "alternateReadings": [
+      {
+        "pinyinDisplay": "guo",
+        "syllables": [
+          {
+            "base": "guo",
+            "tone": 0,
+            "display": "guo"
+          }
+        ],
+        "note": "(aspect particle indicating past experience)"
+      }
+    ]
+  },
+  {
+    "id": "hsk2-0048",
+    "hskLevel": "2",
+    "hanzi": "过",
+    "pinyinDisplay": "guo",
+    "syllables": [
+      {
+        "base": "guo",
+        "tone": 0,
+        "display": "guo"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "aspect particle indicating past experience",
+        "partOfSpeech": [
+          "part."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 48,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-过"
+    ],
+    "alternateReadings": [
+      {
+        "pinyinDisplay": "guò",
+        "syllables": [
+          {
+            "base": "guo",
+            "tone": 4,
+            "display": "guò"
+          }
+        ],
+        "note": "to pass, to cross, to go over; to spend (time)"
+      }
+    ]
+  },
+  {
+    "id": "hsk2-0049",
+    "hskLevel": "2",
+    "hanzi": "过来",
+    "pinyinDisplay": "guò lái",
+    "syllables": [
+      {
+        "base": "guo",
+        "tone": 4,
+        "display": "guò"
+      },
+      {
+        "base": "lai",
+        "tone": 2,
+        "display": "lái"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to come over",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 49,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-过",
+      "char-来"
+    ]
+  },
+  {
+    "id": "hsk2-0050",
+    "hskLevel": "2",
+    "hanzi": "过年",
+    "pinyinDisplay": "guò nián",
+    "syllables": [
+      {
+        "base": "guo",
+        "tone": 4,
+        "display": "guò"
+      },
+      {
+        "base": "nian",
+        "tone": 2,
+        "display": "nián"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to celebrate the Chinese New Year",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 50,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-过",
+      "char-年"
+    ]
+  },
+  {
+    "id": "hsk2-0051",
+    "hskLevel": "2",
+    "hanzi": "过去",
+    "pinyinDisplay": "guò qù",
+    "syllables": [
+      {
+        "base": "guo",
+        "tone": 4,
+        "display": "guò"
+      },
+      {
+        "base": "qu",
+        "tone": 4,
+        "display": "qù"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to pass; to go over; to go past",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 51,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-过",
+      "char-去"
+    ]
+  },
+  {
+    "id": "hsk2-0052",
+    "hskLevel": "2",
+    "hanzi": "还是",
+    "pinyinDisplay": "hái shi",
+    "syllables": [
+      {
+        "base": "hai",
+        "tone": 2,
+        "display": "hái"
+      },
+      {
+        "base": "shi",
+        "tone": 0,
+        "display": "shi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "...or...? [in a question]",
+        "partOfSpeech": [
+          "adv.",
+          "conj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 52,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-还",
+      "char-是"
+    ]
+  },
+  {
+    "id": "hsk2-0053",
+    "hskLevel": "2",
+    "hanzi": "黑色",
+    "pinyinDisplay": "hēi sè",
+    "syllables": [
+      {
+        "base": "hei",
+        "tone": 1,
+        "display": "hēi"
+      },
+      {
+        "base": "se",
+        "tone": 4,
+        "display": "sè"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "black",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 53,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-黑",
+      "char-色"
+    ]
+  },
+  {
+    "id": "hsk2-0054",
+    "hskLevel": "2",
+    "hanzi": "红茶",
+    "pinyinDisplay": "hóng chá",
+    "syllables": [
+      {
+        "base": "hong",
+        "tone": 2,
+        "display": "hóng"
+      },
+      {
+        "base": "cha",
+        "tone": 2,
+        "display": "chá"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "black tea",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 54,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-红",
+      "char-茶"
+    ]
+  },
+  {
+    "id": "hsk2-0055",
+    "hskLevel": "2",
+    "hanzi": "红色",
+    "pinyinDisplay": "hóng sè",
+    "syllables": [
+      {
+        "base": "hong",
+        "tone": 2,
+        "display": "hóng"
+      },
+      {
+        "base": "se",
+        "tone": 4,
+        "display": "sè"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "red (color)",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 55,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-红",
+      "char-色"
+    ]
+  },
+  {
+    "id": "hsk2-0056",
+    "hskLevel": "2",
+    "hanzi": "后面",
+    "pinyinDisplay": "hòu miàn",
+    "syllables": [
+      {
+        "base": "hou",
+        "tone": 4,
+        "display": "hòu"
+      },
+      {
+        "base": "mian",
+        "tone": 4,
+        "display": "miàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "at the back; behind; later",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 56,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-后",
+      "char-面"
+    ]
+  },
+  {
+    "id": "hsk2-0057",
+    "hskLevel": "2",
+    "hanzi": "花",
+    "pinyinDisplay": "huā",
+    "syllables": [
+      {
+        "base": "hua",
+        "tone": 1,
+        "display": "huā"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "spend",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 57,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-花"
+    ]
+  },
+  {
+    "id": "hsk2-0058",
+    "hskLevel": "2",
+    "hanzi": "花",
+    "pinyinDisplay": "huā",
+    "syllables": [
+      {
+        "base": "hua",
+        "tone": 1,
+        "display": "huā"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "flower; blossom; patterned; colorful",
+        "partOfSpeech": [
+          "n.",
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 58,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-花"
+    ]
+  },
+  {
+    "id": "hsk2-0059",
+    "hskLevel": "2",
+    "hanzi": "画",
+    "pinyinDisplay": "huà",
+    "syllables": [
+      {
+        "base": "hua",
+        "tone": 4,
+        "display": "huà"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to draw; paint (pictures)",
+        "partOfSpeech": [
+          "n.",
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 59,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-画"
+    ]
+  },
+  {
+    "id": "hsk2-0060",
+    "hskLevel": "2",
+    "hanzi": "坏",
+    "pinyinDisplay": "huài",
+    "syllables": [
+      {
+        "base": "huai",
+        "tone": 4,
+        "display": "huài"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "bad",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 60,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-坏"
+    ]
+  },
+  {
+    "id": "hsk2-0061",
+    "hskLevel": "2",
+    "hanzi": "回来",
+    "pinyinDisplay": "huí lái",
+    "syllables": [
+      {
+        "base": "hui",
+        "tone": 2,
+        "display": "huí"
+      },
+      {
+        "base": "lai",
+        "tone": 2,
+        "display": "lái"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to return; to come back",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 61,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-回",
+      "char-来"
+    ]
+  },
+  {
+    "id": "hsk2-0062",
+    "hskLevel": "2",
+    "hanzi": "回去",
+    "pinyinDisplay": "huí qù",
+    "syllables": [
+      {
+        "base": "hui",
+        "tone": 2,
+        "display": "huí"
+      },
+      {
+        "base": "qu",
+        "tone": 4,
+        "display": "qù"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to return",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 62,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-回",
+      "char-去"
+    ]
+  },
+  {
+    "id": "hsk2-0063",
+    "hskLevel": "2",
+    "hanzi": "机场",
+    "pinyinDisplay": "jī chǎng",
+    "syllables": [
+      {
+        "base": "ji",
+        "tone": 1,
+        "display": "jī"
+      },
+      {
+        "base": "chang",
+        "tone": 3,
+        "display": "chǎng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "airport",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 63,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-机",
+      "char-场"
+    ]
+  },
+  {
+    "id": "hsk2-0064",
+    "hskLevel": "2",
+    "hanzi": "机票",
+    "pinyinDisplay": "jī piào",
+    "syllables": [
+      {
+        "base": "ji",
+        "tone": 1,
+        "display": "jī"
+      },
+      {
+        "base": "piao",
+        "tone": 4,
+        "display": "piào"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "air ticket",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 64,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-机",
+      "char-票"
+    ]
+  },
+  {
+    "id": "hsk2-0065",
+    "hskLevel": "2",
+    "hanzi": "记得",
+    "pinyinDisplay": "jì de",
+    "syllables": [
+      {
+        "base": "ji",
+        "tone": 4,
+        "display": "jì"
+      },
+      {
+        "base": "de",
+        "tone": 0,
+        "display": "de"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to remember",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 65,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-记",
+      "char-得"
+    ]
+  },
+  {
+    "id": "hsk2-0066",
+    "hskLevel": "2",
+    "hanzi": "间",
+    "pinyinDisplay": "jiān",
+    "syllables": [
+      {
+        "base": "jian",
+        "tone": 1,
+        "display": "jiān"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "between; space; interval",
+        "partOfSpeech": [
+          "n.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 66,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-间"
+    ]
+  },
+  {
+    "id": "hsk2-0067",
+    "hskLevel": "2",
+    "hanzi": "教",
+    "pinyinDisplay": "jiāo",
+    "syllables": [
+      {
+        "base": "jiao",
+        "tone": 1,
+        "display": "jiāo"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to teach",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 67,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-教"
+    ]
+  },
+  {
+    "id": "hsk2-0068",
+    "hskLevel": "2",
+    "hanzi": "教室",
+    "pinyinDisplay": "jiào shì",
+    "syllables": [
+      {
+        "base": "jiao",
+        "tone": 4,
+        "display": "jiào"
+      },
+      {
+        "base": "shi",
+        "tone": 4,
+        "display": "shì"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "classroom",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 68,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-教",
+      "char-室"
+    ]
+  },
+  {
+    "id": "hsk2-0069",
+    "hskLevel": "2",
+    "hanzi": "介绍",
+    "pinyinDisplay": "jiè shào",
+    "syllables": [
+      {
+        "base": "jie",
+        "tone": 4,
+        "display": "jiè"
+      },
+      {
+        "base": "shao",
+        "tone": 4,
+        "display": "shào"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "introduce",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 69,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-介",
+      "char-绍"
+    ]
+  },
+  {
+    "id": "hsk2-0070",
+    "hskLevel": "2",
+    "hanzi": "进",
+    "pinyinDisplay": "jìn",
+    "syllables": [
+      {
+        "base": "jin",
+        "tone": 4,
+        "display": "jìn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to enter",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 70,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-进"
+    ]
+  },
+  {
+    "id": "hsk2-0071",
+    "hskLevel": "2",
+    "hanzi": "近",
+    "pinyinDisplay": "jìn",
+    "syllables": [
+      {
+        "base": "jin",
+        "tone": 4,
+        "display": "jìn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "near; close by",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 71,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-近"
+    ]
+  },
+  {
+    "id": "hsk2-0072",
+    "hskLevel": "2",
+    "hanzi": "进来",
+    "pinyinDisplay": "jìn lái",
+    "syllables": [
+      {
+        "base": "jin",
+        "tone": 4,
+        "display": "jìn"
+      },
+      {
+        "base": "lai",
+        "tone": 2,
+        "display": "lái"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to come in",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 72,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-进",
+      "char-来"
+    ]
+  },
+  {
+    "id": "hsk2-0073",
+    "hskLevel": "2",
+    "hanzi": "进去",
+    "pinyinDisplay": "jìn qù",
+    "syllables": [
+      {
+        "base": "jin",
+        "tone": 4,
+        "display": "jìn"
+      },
+      {
+        "base": "qu",
+        "tone": 4,
+        "display": "qù"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to go in",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 73,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-进",
+      "char-去"
+    ]
+  },
+  {
+    "id": "hsk2-0074",
+    "hskLevel": "2",
+    "hanzi": "经常",
+    "pinyinDisplay": "jīng cháng",
+    "syllables": [
+      {
+        "base": "jing",
+        "tone": 1,
+        "display": "jīng"
+      },
+      {
+        "base": "chang",
+        "tone": 2,
+        "display": "cháng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "often; regularly",
+        "partOfSpeech": [
+          "adv."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 74,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-经",
+      "char-常"
+    ]
+  },
+  {
+    "id": "hsk2-0075",
+    "hskLevel": "2",
+    "hanzi": "酒店",
+    "pinyinDisplay": "jiǔ diàn",
+    "syllables": [
+      {
+        "base": "jiu",
+        "tone": 3,
+        "display": "jiǔ"
+      },
+      {
+        "base": "dian",
+        "tone": 4,
+        "display": "diàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "wine shop",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 75,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-酒",
+      "char-店"
+    ]
+  },
+  {
+    "id": "hsk2-0076",
+    "hskLevel": "2",
+    "hanzi": "就",
+    "pinyinDisplay": "jiù",
+    "syllables": [
+      {
+        "base": "jiu",
+        "tone": 4,
+        "display": "jiù"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "then; just; simply; at once",
+        "partOfSpeech": [
+          "adv.",
+          "prep."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 76,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-就"
+    ]
+  },
+  {
+    "id": "hsk2-0077",
+    "hskLevel": "2",
+    "hanzi": "咖啡",
+    "pinyinDisplay": "kā fēi",
+    "syllables": [
+      {
+        "base": "ka",
+        "tone": 1,
+        "display": "kā"
+      },
+      {
+        "base": "fei",
+        "tone": 1,
+        "display": "fēi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "coffee",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 77,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-咖",
+      "char-啡"
+    ]
+  },
+  {
+    "id": "hsk2-0078",
+    "hskLevel": "2",
+    "hanzi": "开始",
+    "pinyinDisplay": "kāi shǐ",
+    "syllables": [
+      {
+        "base": "kai",
+        "tone": 1,
+        "display": "kāi"
+      },
+      {
+        "base": "shi",
+        "tone": 3,
+        "display": "shǐ"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to begin",
+        "partOfSpeech": [
+          "n.",
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 78,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-开",
+      "char-始"
+    ]
+  },
+  {
+    "id": "hsk2-0079",
+    "hskLevel": "2",
+    "hanzi": "开学",
+    "pinyinDisplay": "kāi xué",
+    "syllables": [
+      {
+        "base": "kai",
+        "tone": 1,
+        "display": "kāi"
+      },
+      {
+        "base": "xue",
+        "tone": 2,
+        "display": "xué"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "foundation of a University or College",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 79,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-开",
+      "char-学"
+    ]
+  },
+  {
+    "id": "hsk2-0080",
+    "hskLevel": "2",
+    "hanzi": "考",
+    "pinyinDisplay": "kǎo",
+    "syllables": [
+      {
+        "base": "kao",
+        "tone": 3,
+        "display": "kǎo"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to examine, test, or investigate",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 80,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-考"
+    ]
+  },
+  {
+    "id": "hsk2-0081",
+    "hskLevel": "2",
+    "hanzi": "考试",
+    "pinyinDisplay": "kǎo shì",
+    "syllables": [
+      {
+        "base": "kao",
+        "tone": 3,
+        "display": "kǎo"
+      },
+      {
+        "base": "shi",
+        "tone": 4,
+        "display": "shì"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "examination",
+        "partOfSpeech": [
+          "n.",
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 81,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-考",
+      "char-试"
+    ]
+  },
+  {
+    "id": "hsk2-0082",
+    "hskLevel": "2",
+    "hanzi": "可能",
+    "pinyinDisplay": "kě néng",
+    "syllables": [
+      {
+        "base": "ke",
+        "tone": 3,
+        "display": "kě"
+      },
+      {
+        "base": "neng",
+        "tone": 2,
+        "display": "néng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "perhaps; possibly",
+        "partOfSpeech": [
+          "n.",
+          "v.",
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 82,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-可",
+      "char-能"
+    ]
+  },
+  {
+    "id": "hsk2-0083",
+    "hskLevel": "2",
+    "hanzi": "裤子",
+    "pinyinDisplay": "kù zi",
+    "syllables": [
+      {
+        "base": "ku",
+        "tone": 4,
+        "display": "kù"
+      },
+      {
+        "base": "zi",
+        "tone": 0,
+        "display": "zi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "trousers",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 83,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-裤",
+      "char-子"
+    ]
+  },
+  {
+    "id": "hsk2-0084",
+    "hskLevel": "2",
+    "hanzi": "快",
+    "pinyinDisplay": "kuài",
+    "syllables": [
+      {
+        "base": "kuai",
+        "tone": 4,
+        "display": "kuài"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "fast; quick",
+        "partOfSpeech": [
+          "adj.",
+          "adv."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 84,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-快"
+    ]
+  },
+  {
+    "id": "hsk2-0085",
+    "hskLevel": "2",
+    "hanzi": "快乐",
+    "pinyinDisplay": "kuài lè",
+    "syllables": [
+      {
+        "base": "kuai",
+        "tone": 4,
+        "display": "kuài"
+      },
+      {
+        "base": "le",
+        "tone": 4,
+        "display": "lè"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "happy",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 85,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-快",
+      "char-乐"
+    ]
+  },
+  {
+    "id": "hsk2-0086",
+    "hskLevel": "2",
+    "hanzi": "快要",
+    "pinyinDisplay": "kuài yào",
+    "syllables": [
+      {
+        "base": "kuai",
+        "tone": 4,
+        "display": "kuài"
+      },
+      {
+        "base": "yao",
+        "tone": 4,
+        "display": "yào"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "nearly at the point of (doing sth); about to (do sth)",
+        "partOfSpeech": [
+          "adv."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 86,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-快",
+      "char-要"
+    ]
+  },
+  {
+    "id": "hsk2-0087",
+    "hskLevel": "2",
+    "hanzi": "篮球",
+    "pinyinDisplay": "lán qiú",
+    "syllables": [
+      {
+        "base": "lan",
+        "tone": 2,
+        "display": "lán"
+      },
+      {
+        "base": "qiu",
+        "tone": 2,
+        "display": "qiú"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "basketball",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 87,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-篮",
+      "char-球"
+    ]
+  },
+  {
+    "id": "hsk2-0088",
+    "hskLevel": "2",
+    "hanzi": "累",
+    "pinyinDisplay": "lèi",
+    "syllables": [
+      {
+        "base": "lei",
+        "tone": 4,
+        "display": "lèi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "tired",
+        "partOfSpeech": [
+          "v.",
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 88,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-累"
+    ]
+  },
+  {
+    "id": "hsk2-0089",
+    "hskLevel": "2",
+    "hanzi": "离",
+    "pinyinDisplay": "lí",
+    "syllables": [
+      {
+        "base": "li",
+        "tone": 2,
+        "display": "lí"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to be distant from; to leave",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 89,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-离"
+    ]
+  },
+  {
+    "id": "hsk2-0090",
+    "hskLevel": "2",
+    "hanzi": "里面",
+    "pinyinDisplay": "lǐ miàn",
+    "syllables": [
+      {
+        "base": "li",
+        "tone": 3,
+        "display": "lǐ"
+      },
+      {
+        "base": "mian",
+        "tone": 4,
+        "display": "miàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "inside",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 90,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-里",
+      "char-面"
+    ]
+  },
+  {
+    "id": "hsk2-0091",
+    "hskLevel": "2",
+    "hanzi": "楼",
+    "pinyinDisplay": "lóu",
+    "syllables": [
+      {
+        "base": "lou",
+        "tone": 2,
+        "display": "lóu"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "multi-storied building",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 91,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-楼"
+    ]
+  },
+  {
+    "id": "hsk2-0092",
+    "hskLevel": "2",
+    "hanzi": "路",
+    "pinyinDisplay": "lù",
+    "syllables": [
+      {
+        "base": "lu",
+        "tone": 4,
+        "display": "lù"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "road; route; bus number",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 92,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-路"
+    ]
+  },
+  {
+    "id": "hsk2-0093",
+    "hskLevel": "2",
+    "hanzi": "路上",
+    "pinyinDisplay": "lù shang",
+    "syllables": [
+      {
+        "base": "lu",
+        "tone": 4,
+        "display": "lù"
+      },
+      {
+        "base": "shang",
+        "tone": 0,
+        "display": "shang"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "on the road",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 93,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-路",
+      "char-上"
+    ]
+  },
+  {
+    "id": "hsk2-0094",
+    "hskLevel": "2",
+    "hanzi": "旅游",
+    "pinyinDisplay": "lǚ yóu",
+    "syllables": [
+      {
+        "base": "lü",
+        "tone": 3,
+        "display": "lǚ"
+      },
+      {
+        "base": "you",
+        "tone": 2,
+        "display": "yóu"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "tourism",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 94,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-旅",
+      "char-游"
+    ]
+  },
+  {
+    "id": "hsk2-0095",
+    "hskLevel": "2",
+    "hanzi": "绿茶",
+    "pinyinDisplay": "lǜ chá",
+    "syllables": [
+      {
+        "base": "lü",
+        "tone": 4,
+        "display": "lǜ"
+      },
+      {
+        "base": "cha",
+        "tone": 2,
+        "display": "chá"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "green tea",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 95,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-绿",
+      "char-茶"
+    ]
+  },
+  {
+    "id": "hsk2-0096",
+    "hskLevel": "2",
+    "hanzi": "绿色",
+    "pinyinDisplay": "lǜ sè",
+    "syllables": [
+      {
+        "base": "lü",
+        "tone": 4,
+        "display": "lǜ"
+      },
+      {
+        "base": "se",
+        "tone": 4,
+        "display": "sè"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "green",
+        "partOfSpeech": [
+          "n.",
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 96,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-绿",
+      "char-色"
+    ]
+  },
+  {
+    "id": "hsk2-0097",
+    "hskLevel": "2",
+    "hanzi": "慢",
+    "pinyinDisplay": "màn",
+    "syllables": [
+      {
+        "base": "man",
+        "tone": 4,
+        "display": "màn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "slow",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 97,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-慢"
+    ]
+  },
+  {
+    "id": "hsk2-0098",
+    "hskLevel": "2",
+    "hanzi": "没意思",
+    "pinyinDisplay": "méi yì si",
+    "syllables": [
+      {
+        "base": "mei",
+        "tone": 2,
+        "display": "méi"
+      },
+      {
+        "base": "yi",
+        "tone": 4,
+        "display": "yì"
+      },
+      {
+        "base": "si",
+        "tone": 0,
+        "display": "si"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "boring",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 98,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-没",
+      "char-意",
+      "char-思"
+    ]
+  },
+  {
+    "id": "hsk2-0099",
+    "hskLevel": "2",
+    "hanzi": "每",
+    "pinyinDisplay": "měi",
+    "syllables": [
+      {
+        "base": "mei",
+        "tone": 3,
+        "display": "měi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "every; each",
+        "partOfSpeech": [
+          "adv.",
+          "pron."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 99,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-每"
+    ]
+  },
+  {
+    "id": "hsk2-0100",
+    "hskLevel": "2",
+    "hanzi": "门",
+    "pinyinDisplay": "mén",
+    "syllables": [
+      {
+        "base": "men",
+        "tone": 2,
+        "display": "mén"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "door",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 100,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-门"
+    ]
+  },
+  {
+    "id": "hsk2-0101",
+    "hskLevel": "2",
+    "hanzi": "门口",
+    "pinyinDisplay": "mén kǒu",
+    "syllables": [
+      {
+        "base": "men",
+        "tone": 2,
+        "display": "mén"
+      },
+      {
+        "base": "kou",
+        "tone": 3,
+        "display": "kǒu"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "doorway",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 101,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-门",
+      "char-口"
+    ]
+  },
+  {
+    "id": "hsk2-0102",
+    "hskLevel": "2",
+    "hanzi": "门票",
+    "pinyinDisplay": "mén piào",
+    "syllables": [
+      {
+        "base": "men",
+        "tone": 2,
+        "display": "mén"
+      },
+      {
+        "base": "piao",
+        "tone": 4,
+        "display": "piào"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "ticket (for theater, cinema etc)",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 102,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-门",
+      "char-票"
+    ]
+  },
+  {
+    "id": "hsk2-0103",
+    "hskLevel": "2",
+    "hanzi": "面",
+    "pinyinDisplay": "miàn",
+    "syllables": [
+      {
+        "base": "mian",
+        "tone": 4,
+        "display": "miàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "side; aspect; surface",
+        "partOfSpeech": [
+          "n.",
+          "v.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 103,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-面"
+    ]
+  },
+  {
+    "id": "hsk2-0104",
+    "hskLevel": "2",
+    "hanzi": "名",
+    "pinyinDisplay": "míng",
+    "syllables": [
+      {
+        "base": "ming",
+        "tone": 2,
+        "display": "míng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "name",
+        "partOfSpeech": [
+          "n.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 104,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-名"
+    ]
+  },
+  {
+    "id": "hsk2-0105",
+    "hskLevel": "2",
+    "hanzi": "拿",
+    "pinyinDisplay": "ná",
+    "syllables": [
+      {
+        "base": "na",
+        "tone": 2,
+        "display": "ná"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to take",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 105,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-拿"
+    ]
+  },
+  {
+    "id": "hsk2-0106",
+    "hskLevel": "2",
+    "hanzi": "那么",
+    "pinyinDisplay": "nà me",
+    "syllables": [
+      {
+        "base": "na",
+        "tone": 4,
+        "display": "nà"
+      },
+      {
+        "base": "me",
+        "tone": 0,
+        "display": "me"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "like that",
+        "partOfSpeech": [
+          "pron.",
+          "conj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 106,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-那",
+      "char-么"
+    ]
+  },
+  {
+    "id": "hsk2-0107",
+    "hskLevel": "2",
+    "hanzi": "那样",
+    "pinyinDisplay": "nà yàng",
+    "syllables": [
+      {
+        "base": "na",
+        "tone": 4,
+        "display": "nà"
+      },
+      {
+        "base": "yang",
+        "tone": 4,
+        "display": "yàng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "that kind",
+        "partOfSpeech": [
+          "pron."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 107,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-那",
+      "char-样"
+    ]
+  },
+  {
+    "id": "hsk2-0108",
+    "hskLevel": "2",
+    "hanzi": "奶茶",
+    "pinyinDisplay": "nǎi chá",
+    "syllables": [
+      {
+        "base": "nai",
+        "tone": 3,
+        "display": "nǎi"
+      },
+      {
+        "base": "cha",
+        "tone": 2,
+        "display": "chá"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "milk tea",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 108,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-奶",
+      "char-茶"
+    ]
+  },
+  {
+    "id": "hsk2-0109",
+    "hskLevel": "2",
+    "hanzi": "奶奶",
+    "pinyinDisplay": "nǎi nai",
+    "syllables": [
+      {
+        "base": "nai",
+        "tone": 3,
+        "display": "nǎi"
+      },
+      {
+        "base": "nai",
+        "tone": 0,
+        "display": "nai"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "grandmother [father's mother]",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 109,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-奶",
+      "char-奶"
+    ]
+  },
+  {
+    "id": "hsk2-0110",
+    "hskLevel": "2",
+    "hanzi": "男孩儿",
+    "pinyinDisplay": "nán háir",
+    "syllables": [
+      {
+        "base": "nan",
+        "tone": 2,
+        "display": "nán"
+      },
+      {
+        "base": "hair",
+        "tone": 2,
+        "display": "háir"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "boy",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 110,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-男",
+      "char-孩",
+      "char-儿"
+    ]
+  },
+  {
+    "id": "hsk2-0111",
+    "hskLevel": "2",
+    "hanzi": "鸟",
+    "pinyinDisplay": "niǎo",
+    "syllables": [
+      {
+        "base": "niao",
+        "tone": 3,
+        "display": "niǎo"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "bird",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 111,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-鸟"
+    ]
+  },
+  {
+    "id": "hsk2-0112",
+    "hskLevel": "2",
+    "hanzi": "女孩儿",
+    "pinyinDisplay": "nǚ háir",
+    "syllables": [
+      {
+        "base": "nü",
+        "tone": 3,
+        "display": "nǚ"
+      },
+      {
+        "base": "hair",
+        "tone": 2,
+        "display": "háir"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "girl",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 112,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-女",
+      "char-孩",
+      "char-儿"
+    ]
+  },
+  {
+    "id": "hsk2-0113",
+    "hskLevel": "2",
+    "hanzi": "旁边",
+    "pinyinDisplay": "páng biān",
+    "syllables": [
+      {
+        "base": "pang",
+        "tone": 2,
+        "display": "páng"
+      },
+      {
+        "base": "bian",
+        "tone": 1,
+        "display": "biān"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "next to",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 113,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-旁",
+      "char-边"
+    ]
+  },
+  {
+    "id": "hsk2-0114",
+    "hskLevel": "2",
+    "hanzi": "跑",
+    "pinyinDisplay": "pǎo",
+    "syllables": [
+      {
+        "base": "pao",
+        "tone": 3,
+        "display": "pǎo"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to run, to dash",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 114,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-跑"
+    ]
+  },
+  {
+    "id": "hsk2-0115",
+    "hskLevel": "2",
+    "hanzi": "跑步",
+    "pinyinDisplay": "pǎo bù",
+    "syllables": [
+      {
+        "base": "pao",
+        "tone": 3,
+        "display": "pǎo"
+      },
+      {
+        "base": "bu",
+        "tone": 4,
+        "display": "bù"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "running; jogging",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 115,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-跑",
+      "char-步"
+    ]
+  },
+  {
+    "id": "hsk2-0116",
+    "hskLevel": "2",
+    "hanzi": "票",
+    "pinyinDisplay": "piào",
+    "syllables": [
+      {
+        "base": "piao",
+        "tone": 4,
+        "display": "piào"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "ticket",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 116,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-票"
+    ]
+  },
+  {
+    "id": "hsk2-0117",
+    "hskLevel": "2",
+    "hanzi": "妻子",
+    "pinyinDisplay": "qī zi",
+    "syllables": [
+      {
+        "base": "qi",
+        "tone": 1,
+        "display": "qī"
+      },
+      {
+        "base": "zi",
+        "tone": 0,
+        "display": "zi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "wife",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 117,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-妻",
+      "char-子"
+    ]
+  },
+  {
+    "id": "hsk2-0118",
+    "hskLevel": "2",
+    "hanzi": "起来",
+    "pinyinDisplay": "qǐ lái",
+    "syllables": [
+      {
+        "base": "qi",
+        "tone": 3,
+        "display": "qǐ"
+      },
+      {
+        "base": "lai",
+        "tone": 2,
+        "display": "lái"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "stand up; sit up; rise to one's feet",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 118,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-起",
+      "char-来"
+    ]
+  },
+  {
+    "id": "hsk2-0119",
+    "hskLevel": "2",
+    "hanzi": "前面",
+    "pinyinDisplay": "qián miàn",
+    "syllables": [
+      {
+        "base": "qian",
+        "tone": 2,
+        "display": "qián"
+      },
+      {
+        "base": "mian",
+        "tone": 4,
+        "display": "miàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "front",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 119,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-前",
+      "char-面"
+    ]
+  },
+  {
+    "id": "hsk2-0120",
+    "hskLevel": "2",
+    "hanzi": "晴",
+    "pinyinDisplay": "qíng",
+    "syllables": [
+      {
+        "base": "qing",
+        "tone": 2,
+        "display": "qíng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "fine; sunny",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 120,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-晴"
+    ]
+  },
+  {
+    "id": "hsk2-0121",
+    "hskLevel": "2",
+    "hanzi": "球",
+    "pinyinDisplay": "qiú",
+    "syllables": [
+      {
+        "base": "qiu",
+        "tone": 2,
+        "display": "qiú"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "ball, sphere, globe",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 121,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-球"
+    ]
+  },
+  {
+    "id": "hsk2-0122",
+    "hskLevel": "2",
+    "hanzi": "让",
+    "pinyinDisplay": "ràng",
+    "syllables": [
+      {
+        "base": "rang",
+        "tone": 4,
+        "display": "ràng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to let; to allow; to yield",
+        "partOfSpeech": [
+          "v.",
+          "prep."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 122,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-让"
+    ]
+  },
+  {
+    "id": "hsk2-0123",
+    "hskLevel": "2",
+    "hanzi": "肉",
+    "pinyinDisplay": "ròu",
+    "syllables": [
+      {
+        "base": "rou",
+        "tone": 4,
+        "display": "ròu"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "flesh; meat",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 123,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-肉"
+    ]
+  },
+  {
+    "id": "hsk2-0124",
+    "hskLevel": "2",
+    "hanzi": "商场",
+    "pinyinDisplay": "shāng chǎng",
+    "syllables": [
+      {
+        "base": "shang",
+        "tone": 1,
+        "display": "shāng"
+      },
+      {
+        "base": "chang",
+        "tone": 3,
+        "display": "chǎng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "shopping mall",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 124,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-商",
+      "char-场"
+    ]
+  },
+  {
+    "id": "hsk2-0125",
+    "hskLevel": "2",
+    "hanzi": "上来",
+    "pinyinDisplay": "shàng lái",
+    "syllables": [
+      {
+        "base": "shang",
+        "tone": 4,
+        "display": "shàng"
+      },
+      {
+        "base": "lai",
+        "tone": 2,
+        "display": "lái"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to come up",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 125,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-上",
+      "char-来"
+    ]
+  },
+  {
+    "id": "hsk2-0126",
+    "hskLevel": "2",
+    "hanzi": "上面",
+    "pinyinDisplay": "shàng miàn",
+    "syllables": [
+      {
+        "base": "shang",
+        "tone": 4,
+        "display": "shàng"
+      },
+      {
+        "base": "mian",
+        "tone": 4,
+        "display": "miàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "on top of",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 126,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-上",
+      "char-面"
+    ]
+  },
+  {
+    "id": "hsk2-0127",
+    "hskLevel": "2",
+    "hanzi": "上去",
+    "pinyinDisplay": "shàng qù",
+    "syllables": [
+      {
+        "base": "shang",
+        "tone": 4,
+        "display": "shàng"
+      },
+      {
+        "base": "qu",
+        "tone": 4,
+        "display": "qù"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to go up",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 127,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-上",
+      "char-去"
+    ]
+  },
+  {
+    "id": "hsk2-0128",
+    "hskLevel": "2",
+    "hanzi": "上网",
+    "pinyinDisplay": "shàng wǎng",
+    "syllables": [
+      {
+        "base": "shang",
+        "tone": 4,
+        "display": "shàng"
+      },
+      {
+        "base": "wang",
+        "tone": 3,
+        "display": "wǎng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "get on the internet",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 128,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-上",
+      "char-网"
+    ]
+  },
+  {
+    "id": "hsk2-0129",
+    "hskLevel": "2",
+    "hanzi": "身体",
+    "pinyinDisplay": "shēn tǐ",
+    "syllables": [
+      {
+        "base": "shen",
+        "tone": 1,
+        "display": "shēn"
+      },
+      {
+        "base": "ti",
+        "tone": 3,
+        "display": "tǐ"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "body; health",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 129,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-身",
+      "char-体"
+    ]
+  },
+  {
+    "id": "hsk2-0130",
+    "hskLevel": "2",
+    "hanzi": "生日",
+    "pinyinDisplay": "shēng rì",
+    "syllables": [
+      {
+        "base": "sheng",
+        "tone": 1,
+        "display": "shēng"
+      },
+      {
+        "base": "ri",
+        "tone": 4,
+        "display": "rì"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "birthday",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 130,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-生",
+      "char-日"
+    ]
+  },
+  {
+    "id": "hsk2-0131",
+    "hskLevel": "2",
+    "hanzi": "时",
+    "pinyinDisplay": "shí",
+    "syllables": [
+      {
+        "base": "shi",
+        "tone": 2,
+        "display": "shí"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "time; season; period",
+        "partOfSpeech": [
+          "n.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 131,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-时"
+    ]
+  },
+  {
+    "id": "hsk2-0132",
+    "hskLevel": "2",
+    "hanzi": "事情",
+    "pinyinDisplay": "shì qing",
+    "syllables": [
+      {
+        "base": "shi",
+        "tone": 4,
+        "display": "shì"
+      },
+      {
+        "base": "qing",
+        "tone": 0,
+        "display": "qing"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "matter; affair; thing",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 132,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-事",
+      "char-情"
+    ]
+  },
+  {
+    "id": "hsk2-0133",
+    "hskLevel": "2",
+    "hanzi": "手",
+    "pinyinDisplay": "shǒu",
+    "syllables": [
+      {
+        "base": "shou",
+        "tone": 3,
+        "display": "shǒu"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "hand",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 133,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-手"
+    ]
+  },
+  {
+    "id": "hsk2-0134",
+    "hskLevel": "2",
+    "hanzi": "手表",
+    "pinyinDisplay": "shǒu biǎo",
+    "syllables": [
+      {
+        "base": "shou",
+        "tone": 3,
+        "display": "shǒu"
+      },
+      {
+        "base": "biao",
+        "tone": 3,
+        "display": "biǎo"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "watch",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 134,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-手",
+      "char-表"
+    ]
+  },
+  {
+    "id": "hsk2-0135",
+    "hskLevel": "2",
+    "hanzi": "书包",
+    "pinyinDisplay": "shū bāo",
+    "syllables": [
+      {
+        "base": "shu",
+        "tone": 1,
+        "display": "shū"
+      },
+      {
+        "base": "bao",
+        "tone": 1,
+        "display": "bāo"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "schoolbag",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 135,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-书",
+      "char-包"
+    ]
+  },
+  {
+    "id": "hsk2-0136",
+    "hskLevel": "2",
+    "hanzi": "舒服",
+    "pinyinDisplay": "shū fu",
+    "syllables": [
+      {
+        "base": "shu",
+        "tone": 1,
+        "display": "shū"
+      },
+      {
+        "base": "fu",
+        "tone": 0,
+        "display": "fu"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "comfortable",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 136,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-舒",
+      "char-服"
+    ]
+  },
+  {
+    "id": "hsk2-0137",
+    "hskLevel": "2",
+    "hanzi": "送",
+    "pinyinDisplay": "sòng",
+    "syllables": [
+      {
+        "base": "song",
+        "tone": 4,
+        "display": "sòng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to give (present); deliver; see someone off",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 137,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-送"
+    ]
+  },
+  {
+    "id": "hsk2-0138",
+    "hskLevel": "2",
+    "hanzi": "虽然",
+    "pinyinDisplay": "suī rán",
+    "syllables": [
+      {
+        "base": "sui",
+        "tone": 1,
+        "display": "suī"
+      },
+      {
+        "base": "ran",
+        "tone": 2,
+        "display": "rán"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "although; even though",
+        "partOfSpeech": [
+          "conj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 138,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-虽",
+      "char-然"
+    ]
+  },
+  {
+    "id": "hsk2-0139",
+    "hskLevel": "2",
+    "hanzi": "所以",
+    "pinyinDisplay": "suǒ yǐ",
+    "syllables": [
+      {
+        "base": "suo",
+        "tone": 3,
+        "display": "suǒ"
+      },
+      {
+        "base": "yi",
+        "tone": 3,
+        "display": "yǐ"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "therefore",
+        "partOfSpeech": [
+          "conj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 139,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-所",
+      "char-以"
+    ]
+  },
+  {
+    "id": "hsk2-0140",
+    "hskLevel": "2",
+    "hanzi": "疼",
+    "pinyinDisplay": "téng",
+    "syllables": [
+      {
+        "base": "teng",
+        "tone": 2,
+        "display": "téng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "pain",
+        "partOfSpeech": [
+          "v.",
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 140,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-疼"
+    ]
+  },
+  {
+    "id": "hsk2-0141",
+    "hskLevel": "2",
+    "hanzi": "踢",
+    "pinyinDisplay": "tī",
+    "syllables": [
+      {
+        "base": "ti",
+        "tone": 1,
+        "display": "tī"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to kick",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 141,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-踢"
+    ]
+  },
+  {
+    "id": "hsk2-0142",
+    "hskLevel": "2",
+    "hanzi": "题",
+    "pinyinDisplay": "tí",
+    "syllables": [
+      {
+        "base": "ti",
+        "tone": 2,
+        "display": "tí"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "question",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 142,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-题"
+    ]
+  },
+  {
+    "id": "hsk2-0143",
+    "hskLevel": "2",
+    "hanzi": "条",
+    "pinyinDisplay": "tiáo",
+    "syllables": [
+      {
+        "base": "tiao",
+        "tone": 2,
+        "display": "tiáo"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "measure word for long thin things; strip",
+        "partOfSpeech": [
+          "n.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 143,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-条"
+    ]
+  },
+  {
+    "id": "hsk2-0144",
+    "hskLevel": "2",
+    "hanzi": "跳舞",
+    "pinyinDisplay": "tiào wǔ",
+    "syllables": [
+      {
+        "base": "tiao",
+        "tone": 4,
+        "display": "tiào"
+      },
+      {
+        "base": "wu",
+        "tone": 3,
+        "display": "wǔ"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to dance",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 144,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-跳",
+      "char-舞"
+    ]
+  },
+  {
+    "id": "hsk2-0145",
+    "hskLevel": "2",
+    "hanzi": "头",
+    "pinyinDisplay": "tóu",
+    "syllables": [
+      {
+        "base": "tou",
+        "tone": 2,
+        "display": "tóu"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "head; top, end; first",
+        "partOfSpeech": [
+          "n.",
+          "adj.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 145,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-头"
+    ],
+    "alternateReadings": [
+      {
+        "pinyinDisplay": "tou",
+        "syllables": [
+          {
+            "base": "tou",
+            "tone": 0,
+            "display": "tou"
+          }
+        ],
+        "note": "(noun suffix)"
+      }
+    ]
+  },
+  {
+    "id": "hsk2-0146",
+    "hskLevel": "2",
+    "hanzi": "外国",
+    "pinyinDisplay": "wài guó",
+    "syllables": [
+      {
+        "base": "wai",
+        "tone": 4,
+        "display": "wài"
+      },
+      {
+        "base": "guo",
+        "tone": 2,
+        "display": "guó"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "foreign (country)",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 146,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-外",
+      "char-国"
+    ]
+  },
+  {
+    "id": "hsk2-0147",
+    "hskLevel": "2",
+    "hanzi": "外面",
+    "pinyinDisplay": "wài miàn",
+    "syllables": [
+      {
+        "base": "wai",
+        "tone": 4,
+        "display": "wài"
+      },
+      {
+        "base": "mian",
+        "tone": 4,
+        "display": "miàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "outside (also pr. [wài mian] for this sense)",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 147,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-外",
+      "char-面"
+    ]
+  },
+  {
+    "id": "hsk2-0148",
+    "hskLevel": "2",
+    "hanzi": "完",
+    "pinyinDisplay": "wán",
+    "syllables": [
+      {
+        "base": "wan",
+        "tone": 2,
+        "display": "wán"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to finish; [+ verb indicates completion]",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 148,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-完"
+    ]
+  },
+  {
+    "id": "hsk2-0149",
+    "hskLevel": "2",
+    "hanzi": "万",
+    "pinyinDisplay": "wàn",
+    "syllables": [
+      {
+        "base": "wan",
+        "tone": 4,
+        "display": "wàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "ten thousand",
+        "partOfSpeech": [
+          "num."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 149,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-万"
+    ]
+  },
+  {
+    "id": "hsk2-0150",
+    "hskLevel": "2",
+    "hanzi": "往",
+    "pinyinDisplay": "wǎng",
+    "syllables": [
+      {
+        "base": "wang",
+        "tone": 3,
+        "display": "wǎng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "towards",
+        "partOfSpeech": [
+          "v.",
+          "prep."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 150,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-往"
+    ]
+  },
+  {
+    "id": "hsk2-0151",
+    "hskLevel": "2",
+    "hanzi": "网上",
+    "pinyinDisplay": "wǎng shang",
+    "syllables": [
+      {
+        "base": "wang",
+        "tone": 3,
+        "display": "wǎng"
+      },
+      {
+        "base": "shang",
+        "tone": 0,
+        "display": "shang"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "online",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 151,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-网",
+      "char-上"
+    ]
+  },
+  {
+    "id": "hsk2-0152",
+    "hskLevel": "2",
+    "hanzi": "忘",
+    "pinyinDisplay": "wàng",
+    "syllables": [
+      {
+        "base": "wang",
+        "tone": 4,
+        "display": "wàng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to forget, to neglect",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 152,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-忘"
+    ]
+  },
+  {
+    "id": "hsk2-0153",
+    "hskLevel": "2",
+    "hanzi": "位",
+    "pinyinDisplay": "wèi",
+    "syllables": [
+      {
+        "base": "wei",
+        "tone": 4,
+        "display": "wèi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "position",
+        "partOfSpeech": [
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 153,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-位"
+    ]
+  },
+  {
+    "id": "hsk2-0154",
+    "hskLevel": "2",
+    "hanzi": "为什么",
+    "pinyinDisplay": "wèi shén me",
+    "syllables": [
+      {
+        "base": "wei",
+        "tone": 4,
+        "display": "wèi"
+      },
+      {
+        "base": "shen",
+        "tone": 2,
+        "display": "shén"
+      },
+      {
+        "base": "me",
+        "tone": 0,
+        "display": "me"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "why?",
+        "partOfSpeech": [
+          "adv."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 154,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-为",
+      "char-什",
+      "char-么"
+    ]
+  },
+  {
+    "id": "hsk2-0155",
+    "hskLevel": "2",
+    "hanzi": "希望",
+    "pinyinDisplay": "xī wàng",
+    "syllables": [
+      {
+        "base": "xi",
+        "tone": 1,
+        "display": "xī"
+      },
+      {
+        "base": "wang",
+        "tone": 4,
+        "display": "wàng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "hope; wish",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 155,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-希",
+      "char-望"
+    ]
+  },
+  {
+    "id": "hsk2-0156",
+    "hskLevel": "2",
+    "hanzi": "洗",
+    "pinyinDisplay": "xǐ",
+    "syllables": [
+      {
+        "base": "xi",
+        "tone": 3,
+        "display": "xǐ"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to wash",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 156,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-洗"
+    ]
+  },
+  {
+    "id": "hsk2-0157",
+    "hskLevel": "2",
+    "hanzi": "洗手间",
+    "pinyinDisplay": "xǐ shǒu jiān",
+    "syllables": [
+      {
+        "base": "xi",
+        "tone": 3,
+        "display": "xǐ"
+      },
+      {
+        "base": "shou",
+        "tone": 3,
+        "display": "shǒu"
+      },
+      {
+        "base": "jian",
+        "tone": 1,
+        "display": "jiān"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "toilets; washroom",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 157,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-洗",
+      "char-手",
+      "char-间"
+    ]
+  },
+  {
+    "id": "hsk2-0158",
+    "hskLevel": "2",
+    "hanzi": "下来",
+    "pinyinDisplay": "xià lái",
+    "syllables": [
+      {
+        "base": "xia",
+        "tone": 4,
+        "display": "xià"
+      },
+      {
+        "base": "lai",
+        "tone": 2,
+        "display": "lái"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to come down",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 158,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-下",
+      "char-来"
+    ]
+  },
+  {
+    "id": "hsk2-0159",
+    "hskLevel": "2",
+    "hanzi": "下面",
+    "pinyinDisplay": "xià miàn",
+    "syllables": [
+      {
+        "base": "xia",
+        "tone": 4,
+        "display": "xià"
+      },
+      {
+        "base": "mian",
+        "tone": 4,
+        "display": "miàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "below",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 159,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-下",
+      "char-面"
+    ]
+  },
+  {
+    "id": "hsk2-0160",
+    "hskLevel": "2",
+    "hanzi": "下去",
+    "pinyinDisplay": "xià qù",
+    "syllables": [
+      {
+        "base": "xia",
+        "tone": 4,
+        "display": "xià"
+      },
+      {
+        "base": "qu",
+        "tone": 4,
+        "display": "qù"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to go down",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 160,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-下",
+      "char-去"
+    ]
+  },
+  {
+    "id": "hsk2-0161",
+    "hskLevel": "2",
+    "hanzi": "小孩儿",
+    "pinyinDisplay": "xiǎo háir",
+    "syllables": [
+      {
+        "base": "xiao",
+        "tone": 3,
+        "display": "xiǎo"
+      },
+      {
+        "base": "hair",
+        "tone": 2,
+        "display": "háir"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "child; kid",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 161,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-小",
+      "char-孩",
+      "char-儿"
+    ]
+  },
+  {
+    "id": "hsk2-0162",
+    "hskLevel": "2",
+    "hanzi": "小时候",
+    "pinyinDisplay": "xiǎo shí hou",
+    "syllables": [
+      {
+        "base": "xiao",
+        "tone": 3,
+        "display": "xiǎo"
+      },
+      {
+        "base": "shi",
+        "tone": 2,
+        "display": "shí"
+      },
+      {
+        "base": "hou",
+        "tone": 0,
+        "display": "hou"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "in one's childhood",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 162,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-小",
+      "char-时",
+      "char-候"
+    ]
+  },
+  {
+    "id": "hsk2-0163",
+    "hskLevel": "2",
+    "hanzi": "笑",
+    "pinyinDisplay": "xiào",
+    "syllables": [
+      {
+        "base": "xiao",
+        "tone": 4,
+        "display": "xiào"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to laugh; smile",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 163,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-笑"
+    ]
+  },
+  {
+    "id": "hsk2-0164",
+    "hskLevel": "2",
+    "hanzi": "姓",
+    "pinyinDisplay": "xìng",
+    "syllables": [
+      {
+        "base": "xing",
+        "tone": 4,
+        "display": "xìng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "surname",
+        "partOfSpeech": [
+          "n.",
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 164,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-姓"
+    ]
+  },
+  {
+    "id": "hsk2-0165",
+    "hskLevel": "2",
+    "hanzi": "姓名",
+    "pinyinDisplay": "xìng míng",
+    "syllables": [
+      {
+        "base": "xing",
+        "tone": 4,
+        "display": "xìng"
+      },
+      {
+        "base": "ming",
+        "tone": 2,
+        "display": "míng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "surname and given name",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 165,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-姓",
+      "char-名"
+    ]
+  },
+  {
+    "id": "hsk2-0166",
+    "hskLevel": "2",
+    "hanzi": "颜色",
+    "pinyinDisplay": "yán sè",
+    "syllables": [
+      {
+        "base": "yan",
+        "tone": 2,
+        "display": "yán"
+      },
+      {
+        "base": "se",
+        "tone": 4,
+        "display": "sè"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "colour",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 166,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-颜",
+      "char-色"
+    ]
+  },
+  {
+    "id": "hsk2-0167",
+    "hskLevel": "2",
+    "hanzi": "眼睛",
+    "pinyinDisplay": "yǎn jing",
+    "syllables": [
+      {
+        "base": "yan",
+        "tone": 3,
+        "display": "yǎn"
+      },
+      {
+        "base": "jing",
+        "tone": 0,
+        "display": "jing"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "eye",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 167,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-眼",
+      "char-睛"
+    ]
+  },
+  {
+    "id": "hsk2-0168",
+    "hskLevel": "2",
+    "hanzi": "药",
+    "pinyinDisplay": "yào",
+    "syllables": [
+      {
+        "base": "yao",
+        "tone": 4,
+        "display": "yào"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "medicine",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 168,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-药"
+    ]
+  },
+  {
+    "id": "hsk2-0169",
+    "hskLevel": "2",
+    "hanzi": "药店",
+    "pinyinDisplay": "yào diàn",
+    "syllables": [
+      {
+        "base": "yao",
+        "tone": 4,
+        "display": "yào"
+      },
+      {
+        "base": "dian",
+        "tone": 4,
+        "display": "diàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "pharmacy",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 169,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-药",
+      "char-店"
+    ]
+  },
+  {
+    "id": "hsk2-0170",
+    "hskLevel": "2",
+    "hanzi": "爷爷",
+    "pinyinDisplay": "yé ye",
+    "syllables": [
+      {
+        "base": "ye",
+        "tone": 2,
+        "display": "yé"
+      },
+      {
+        "base": "ye",
+        "tone": 0,
+        "display": "ye"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "grandfather [father's father]",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 170,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-爷",
+      "char-爷"
+    ]
+  },
+  {
+    "id": "hsk2-0171",
+    "hskLevel": "2",
+    "hanzi": "一会儿",
+    "pinyinDisplay": "yí huìr",
+    "syllables": [
+      {
+        "base": "yi",
+        "tone": 2,
+        "display": "yí"
+      },
+      {
+        "base": "huir",
+        "tone": 4,
+        "display": "huìr"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "a short while",
+        "partOfSpeech": [
+          "adv.",
+          "num.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 171,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-一",
+      "char-会",
+      "char-儿"
+    ]
+  },
+  {
+    "id": "hsk2-0172",
+    "hskLevel": "2",
+    "hanzi": "已经",
+    "pinyinDisplay": "yǐ jīng",
+    "syllables": [
+      {
+        "base": "yi",
+        "tone": 3,
+        "display": "yǐ"
+      },
+      {
+        "base": "jing",
+        "tone": 1,
+        "display": "jīng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "already",
+        "partOfSpeech": [
+          "adv."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 172,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-已",
+      "char-经"
+    ]
+  },
+  {
+    "id": "hsk2-0173",
+    "hskLevel": "2",
+    "hanzi": "一起",
+    "pinyinDisplay": "yì qǐ",
+    "syllables": [
+      {
+        "base": "yi",
+        "tone": 4,
+        "display": "yì"
+      },
+      {
+        "base": "qi",
+        "tone": 3,
+        "display": "qǐ"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "together",
+        "partOfSpeech": [
+          "adv."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 173,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-一",
+      "char-起"
+    ]
+  },
+  {
+    "id": "hsk2-0174",
+    "hskLevel": "2",
+    "hanzi": "意思",
+    "pinyinDisplay": "yì si",
+    "syllables": [
+      {
+        "base": "yi",
+        "tone": 4,
+        "display": "yì"
+      },
+      {
+        "base": "si",
+        "tone": 0,
+        "display": "si"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "meaning",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 174,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-意",
+      "char-思"
+    ]
+  },
+  {
+    "id": "hsk2-0175",
+    "hskLevel": "2",
+    "hanzi": "阴",
+    "pinyinDisplay": "yīn",
+    "syllables": [
+      {
+        "base": "yin",
+        "tone": 1,
+        "display": "yīn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "cloudy",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 175,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-阴"
+    ]
+  },
+  {
+    "id": "hsk2-0176",
+    "hskLevel": "2",
+    "hanzi": "因为",
+    "pinyinDisplay": "yīn wèi",
+    "syllables": [
+      {
+        "base": "yin",
+        "tone": 1,
+        "display": "yīn"
+      },
+      {
+        "base": "wei",
+        "tone": 4,
+        "display": "wèi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "because",
+        "partOfSpeech": [
+          "prep.",
+          "conj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 176,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-因",
+      "char-为"
+    ]
+  },
+  {
+    "id": "hsk2-0177",
+    "hskLevel": "2",
+    "hanzi": "游",
+    "pinyinDisplay": "yóu",
+    "syllables": [
+      {
+        "base": "you",
+        "tone": 2,
+        "display": "yóu"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to swim; to travel; to wander; to move through water",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 177,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-游"
+    ]
+  },
+  {
+    "id": "hsk2-0178",
+    "hskLevel": "2",
+    "hanzi": "游泳",
+    "pinyinDisplay": "yóu yǒng",
+    "syllables": [
+      {
+        "base": "you",
+        "tone": 2,
+        "display": "yóu"
+      },
+      {
+        "base": "yong",
+        "tone": 3,
+        "display": "yǒng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "swimming",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 178,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-游",
+      "char-泳"
+    ]
+  },
+  {
+    "id": "hsk2-0179",
+    "hskLevel": "2",
+    "hanzi": "有意思",
+    "pinyinDisplay": "yǒu yì si",
+    "syllables": [
+      {
+        "base": "you",
+        "tone": 3,
+        "display": "yǒu"
+      },
+      {
+        "base": "yi",
+        "tone": 4,
+        "display": "yì"
+      },
+      {
+        "base": "si",
+        "tone": 0,
+        "display": "si"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "interesting",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 179,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-有",
+      "char-意",
+      "char-思"
+    ]
+  },
+  {
+    "id": "hsk2-0180",
+    "hskLevel": "2",
+    "hanzi": "有时",
+    "pinyinDisplay": "yǒu shí",
+    "syllables": [
+      {
+        "base": "you",
+        "tone": 3,
+        "display": "yǒu"
+      },
+      {
+        "base": "shi",
+        "tone": 2,
+        "display": "shí"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "sometimes",
+        "partOfSpeech": [
+          "adv."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 180,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-有",
+      "char-时"
+    ]
+  },
+  {
+    "id": "hsk2-0181",
+    "hskLevel": "2",
+    "hanzi": "右",
+    "pinyinDisplay": "yòu",
+    "syllables": [
+      {
+        "base": "you",
+        "tone": 4,
+        "display": "yòu"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "right side or direction",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 181,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-右"
+    ]
+  },
+  {
+    "id": "hsk2-0182",
+    "hskLevel": "2",
+    "hanzi": "右边",
+    "pinyinDisplay": "yòu bian",
+    "syllables": [
+      {
+        "base": "you",
+        "tone": 4,
+        "display": "yòu"
+      },
+      {
+        "base": "bian",
+        "tone": 0,
+        "display": "bian"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "on the right",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 182,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-右",
+      "char-边"
+    ]
+  },
+  {
+    "id": "hsk2-0183",
+    "hskLevel": "2",
+    "hanzi": "鱼",
+    "pinyinDisplay": "yú",
+    "syllables": [
+      {
+        "base": "yu",
+        "tone": 2,
+        "display": "yú"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "fish",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 183,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-鱼"
+    ]
+  },
+  {
+    "id": "hsk2-0184",
+    "hskLevel": "2",
+    "hanzi": "远",
+    "pinyinDisplay": "yuǎn",
+    "syllables": [
+      {
+        "base": "yuan",
+        "tone": 3,
+        "display": "yuǎn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "far",
+        "partOfSpeech": [
+          "adj."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 184,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-远"
+    ]
+  },
+  {
+    "id": "hsk2-0185",
+    "hskLevel": "2",
+    "hanzi": "运动",
+    "pinyinDisplay": "yùn dòng",
+    "syllables": [
+      {
+        "base": "yun",
+        "tone": 4,
+        "display": "yùn"
+      },
+      {
+        "base": "dong",
+        "tone": 4,
+        "display": "dòng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "sport",
+        "partOfSpeech": [
+          "n.",
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 185,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-运",
+      "char-动"
+    ]
+  },
+  {
+    "id": "hsk2-0186",
+    "hskLevel": "2",
+    "hanzi": "站",
+    "pinyinDisplay": "zhàn",
+    "syllables": [
+      {
+        "base": "zhan",
+        "tone": 4,
+        "display": "zhàn"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "station; stop",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 186,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-站"
+    ]
+  },
+  {
+    "id": "hsk2-0187",
+    "hskLevel": "2",
+    "hanzi": "丈夫",
+    "pinyinDisplay": "zhàng fu",
+    "syllables": [
+      {
+        "base": "zhang",
+        "tone": 4,
+        "display": "zhàng"
+      },
+      {
+        "base": "fu",
+        "tone": 0,
+        "display": "fu"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "husband",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 187,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-丈",
+      "char-夫"
+    ]
+  },
+  {
+    "id": "hsk2-0188",
+    "hskLevel": "2",
+    "hanzi": "这么",
+    "pinyinDisplay": "zhè me",
+    "syllables": [
+      {
+        "base": "zhe",
+        "tone": 4,
+        "display": "zhè"
+      },
+      {
+        "base": "me",
+        "tone": 0,
+        "display": "me"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "so much",
+        "partOfSpeech": [
+          "pron."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 188,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-这",
+      "char-么"
+    ]
+  },
+  {
+    "id": "hsk2-0189",
+    "hskLevel": "2",
+    "hanzi": "这样",
+    "pinyinDisplay": "zhè yàng",
+    "syllables": [
+      {
+        "base": "zhe",
+        "tone": 4,
+        "display": "zhè"
+      },
+      {
+        "base": "yang",
+        "tone": 4,
+        "display": "yàng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "this kind of",
+        "partOfSpeech": [
+          "pron."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 189,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-这",
+      "char-样"
+    ]
+  },
+  {
+    "id": "hsk2-0190",
+    "hskLevel": "2",
+    "hanzi": "着",
+    "pinyinDisplay": "zhe",
+    "syllables": [
+      {
+        "base": "zhe",
+        "tone": 0,
+        "display": "zhe"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "-ing",
+        "partOfSpeech": [
+          "part."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 190,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-着"
+    ],
+    "alternateReadings": [
+      {
+        "pinyinDisplay": "zháo",
+        "syllables": [
+          {
+            "base": "zhao",
+            "tone": 2,
+            "display": "zháo"
+          }
+        ],
+        "note": "to touch, to be affected by; to catch fire, to fall asleep"
+      }
+    ]
+  },
+  {
+    "id": "hsk2-0191",
+    "hskLevel": "2",
+    "hanzi": "正",
+    "pinyinDisplay": "zhèng",
+    "syllables": [
+      {
+        "base": "zheng",
+        "tone": 4,
+        "display": "zhèng"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "straight; upright; correct",
+        "partOfSpeech": [
+          "adj.",
+          "adv."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 191,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-正"
+    ]
+  },
+  {
+    "id": "hsk2-0192",
+    "hskLevel": "2",
+    "hanzi": "周",
+    "pinyinDisplay": "zhōu",
+    "syllables": [
+      {
+        "base": "zhou",
+        "tone": 1,
+        "display": "zhōu"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "circumference; cycle; complete; all around",
+        "partOfSpeech": [
+          "n.",
+          "mw."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 192,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-周"
+    ]
+  },
+  {
+    "id": "hsk2-0193",
+    "hskLevel": "2",
+    "hanzi": "准备",
+    "pinyinDisplay": "zhǔn bèi",
+    "syllables": [
+      {
+        "base": "zhun",
+        "tone": 3,
+        "display": "zhǔn"
+      },
+      {
+        "base": "bei",
+        "tone": 4,
+        "display": "bèi"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to prepare",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 193,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-准",
+      "char-备"
+    ]
+  },
+  {
+    "id": "hsk2-0194",
+    "hskLevel": "2",
+    "hanzi": "自己",
+    "pinyinDisplay": "zì jǐ",
+    "syllables": [
+      {
+        "base": "zi",
+        "tone": 4,
+        "display": "zì"
+      },
+      {
+        "base": "ji",
+        "tone": 3,
+        "display": "jǐ"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "self; oneself",
+        "partOfSpeech": [
+          "pron."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 194,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-自",
+      "char-己"
+    ]
+  },
+  {
+    "id": "hsk2-0195",
+    "hskLevel": "2",
+    "hanzi": "走",
+    "pinyinDisplay": "zǒu",
+    "syllables": [
+      {
+        "base": "zou",
+        "tone": 3,
+        "display": "zǒu"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "go; walk",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 195,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-走"
+    ]
+  },
+  {
+    "id": "hsk2-0196",
+    "hskLevel": "2",
+    "hanzi": "走路",
+    "pinyinDisplay": "zǒu lù",
+    "syllables": [
+      {
+        "base": "zou",
+        "tone": 3,
+        "display": "zǒu"
+      },
+      {
+        "base": "lu",
+        "tone": 4,
+        "display": "lù"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "to walk",
+        "partOfSpeech": [
+          "v."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 196,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-走",
+      "char-路"
+    ]
+  },
+  {
+    "id": "hsk2-0197",
+    "hskLevel": "2",
+    "hanzi": "足球",
+    "pinyinDisplay": "zú qiú",
+    "syllables": [
+      {
+        "base": "zu",
+        "tone": 2,
+        "display": "zú"
+      },
+      {
+        "base": "qiu",
+        "tone": 2,
+        "display": "qiú"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "soccer ball",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 197,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-足",
+      "char-球"
+    ]
+  },
+  {
+    "id": "hsk2-0198",
+    "hskLevel": "2",
+    "hanzi": "最",
+    "pinyinDisplay": "zuì",
+    "syllables": [
+      {
+        "base": "zui",
+        "tone": 4,
+        "display": "zuì"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "most",
+        "partOfSpeech": [
+          "adv."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 198,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-最"
+    ]
+  },
+  {
+    "id": "hsk2-0199",
+    "hskLevel": "2",
+    "hanzi": "左",
+    "pinyinDisplay": "zuǒ",
+    "syllables": [
+      {
+        "base": "zuo",
+        "tone": 3,
+        "display": "zuǒ"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "left (direction or side)",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 199,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-左"
+    ]
+  },
+  {
+    "id": "hsk2-0200",
+    "hskLevel": "2",
+    "hanzi": "左边",
+    "pinyinDisplay": "zuǒ bian",
+    "syllables": [
+      {
+        "base": "zuo",
+        "tone": 3,
+        "display": "zuǒ"
+      },
+      {
+        "base": "bian",
+        "tone": 0,
+        "display": "bian"
+      }
+    ],
+    "definitions": [
+      {
+        "text": "on the left",
+        "partOfSpeech": [
+          "n."
+        ],
+        "source": "pdf"
+      }
+    ],
+    "sourceOrder": 200,
+    "sourceFile": "HSK2-Vocabulary-3.0.pdf",
+    "sourceLabel": "HSK 2",
+    "isPhrase": false,
+    "isIdiom": false,
+    "characterIds": [
+      "char-左",
+      "char-边"
+    ]
+  }
+]

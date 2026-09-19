@@ -1,0 +1,202 @@
+[
+  {
+    "id": "sent-001",
+    "vocabularyId": "hsk1-001",
+    "chinese": "我爱你。",
+    "pinyin": "Wǒ ài nǐ.",
+    "english": "I love you.",
+    "tokens": ["我", "爱", "你"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-002",
+    "vocabularyId": "hsk1-002",
+    "chinese": "他有八本书。",
+    "pinyin": "Tā yǒu bā běn shū.",
+    "english": "He has eight books.",
+    "tokens": ["他", "有", "八本", "书"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-003",
+    "vocabularyId": "hsk1-003",
+    "chinese": "我爸爸是医生。",
+    "pinyin": "Wǒ bàba shì yīshēng.",
+    "english": "My father is a doctor.",
+    "tokens": ["我", "爸爸", "是", "医生"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-004",
+    "vocabularyId": "hsk1-004",
+    "chinese": "我想去北京。",
+    "pinyin": "Wǒ xiǎng qù Běijīng.",
+    "english": "I want to go to Beijing.",
+    "tokens": ["我", "想去", "北京"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-005",
+    "vocabularyId": "hsk1-005",
+    "chinese": "我不是老师。",
+    "pinyin": "Wǒ bù shì lǎoshī.",
+    "english": "I am not a teacher.",
+    "tokens": ["我", "不是", "老师"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-006",
+    "vocabularyId": "hsk1-006",
+    "chinese": "这个苹果很大。",
+    "pinyin": "Zhège píngguǒ hěn dà.",
+    "english": "This apple is very big.",
+    "tokens": ["这个", "苹果", "很", "大"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-007",
+    "vocabularyId": "hsk1-007",
+    "chinese": "今天天气很好。",
+    "pinyin": "Jīntiān tiānqì hěn hǎo.",
+    "english": "The weather is very good today.",
+    "tokens": ["今天", "天气", "很", "好"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-008",
+    "vocabularyId": "hsk1-008",
+    "chinese": "他还在学校学习。",
+    "pinyin": "Tā hái zài xuéxiào xuéxí.",
+    "english": "He is still studying at school.",
+    "tokens": ["他", "还在", "学校", "学习"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-009",
+    "vocabularyId": "hsk1-009",
+    "chinese": "我看了一本好书。",
+    "pinyin": "Wǒ kàn le yī běn hǎo shū.",
+    "english": "I read a good book.",
+    "tokens": ["我", "看了", "一本", "好书"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-010",
+    "vocabularyId": "hsk1-010",
+    "chinese": "他是我的好朋友。",
+    "pinyin": "Tā shì wǒ de hǎo péngyou.",
+    "english": "He is my good friend.",
+    "tokens": ["他", "是", "我的", "好朋友"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-011",
+    "vocabularyId": "hsk1-011",
+    "chinese": "我们明天去中国。",
+    "pinyin": "Wǒmen míngtiān qù Zhōngguó.",
+    "english": "We are going to China tomorrow.",
+    "tokens": ["我们", "明天", "去", "中国"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-013",
+    "vocabularyId": "hsk1-013",
+    "chinese": "我是学生。",
+    "pinyin": "Wǒ shì xuésheng.",
+    "english": "I am a student.",
+    "tokens": ["我", "是", "学生"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-014",
+    "vocabularyId": "hsk1-014",
+    "chinese": "桌子上有一本书。",
+    "pinyin": "Zhuōzi shang yǒu yī běn shū.",
+    "english": "There is a book on the desk.",
+    "tokens": ["桌子上", "有一本", "书"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-015",
+    "vocabularyId": "hsk1-015",
+    "chinese": "我想喝一杯水。",
+    "pinyin": "Wǒ xiǎng hē yībēi shuǐ.",
+    "english": "I would like to drink a glass of water.",
+    "tokens": ["我想", "喝一杯", "水"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-017",
+    "vocabularyId": "hsk1-017",
+    "chinese": "我喜欢学中文。",
+    "pinyin": "Wǒ xǐhuan xué Zhōngwén.",
+    "english": "I like learning Chinese.",
+    "tokens": ["我", "喜欢", "学", "中文"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-018",
+    "vocabularyId": "hsk1-018",
+    "chinese": "学校有很多学生。",
+    "pinyin": "Xuéxiào yǒu hěn duō xuésheng.",
+    "english": "There are many students in the school.",
+    "tokens": ["学校", "有", "很多", "学生"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-020",
+    "vocabularyId": "hsk1-020",
+    "chinese": "我爱中国文化。",
+    "pinyin": "Wǒ ài Zhōngguó wénhuà.",
+    "english": "I love Chinese culture.",
+    "tokens": ["我", "爱", "中国", "文化"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-hsk2-001",
+    "vocabularyId": "hsk2-001",
+    "chinese": "这条路很长。",
+    "pinyin": "Zhè tiáo lù hěn cháng.",
+    "english": "This road is very long.",
+    "tokens": ["这条路", "很", "长"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-hsk2-006",
+    "vocabularyId": "hsk2-006",
+    "chinese": "你懂我的意思吗？",
+    "pinyin": "Nǐ dǒng wǒ de yìsi ma?",
+    "english": "Do you understand what I mean?",
+    "tokens": ["你", "懂", "我的意思", "吗"],
+    "source": "manual",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sent-hsk4-001",
+    "vocabularyId": "hsk4-001",
+    "chinese": "背诵课文有助于学习。",
+    "pinyin": "Bèisòng kèwén yǒu zhù yú xuéxí.",
+    "english": "Reciting texts helps in learning.",
+    "tokens": ["背诵", "课文", "有助于", "学习"],
+    "source": "manual",
+    "difficulty": "intermediate"
+  }
+]

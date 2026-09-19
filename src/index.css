@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-paper: #FCFCFA;
+    --color-white: #FFFFFF;
+    --color-ink-950: #101214;
+    --color-ink-800: #2A2D31;
+    --color-ink-600: #5C626B;
+    --color-ink-400: #8E959F;
+    --color-ink-200: #D9DDE2;
+    --color-ink-100: #EEF0F3;
+    
+    --color-vermilion-600: #D63A2F;
+    --color-vermilion-500: #E24A3C;
+    --color-vermilion-100: #FCE8E5;
+    
+    --color-success: #2E7D5B;
+    --color-warning: #B7791F;
+    --color-error: #C43D3D;
+    --color-info: #3566B8;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink-950);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-hanzi {
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+.font-hanzi-serif {
+  font-family: 'Noto Serif SC', 'Songti SC', SimSun, serif;
+}
+
+/* Character practice grid paper background */
+.tian-zi-ge {
+  background-size: 100% 100%;
+  background-image: 
+    linear-gradient(to right, rgba(214, 58, 47, 0.15) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(214, 58, 47, 0.15) 1px, transparent 1px),
+    linear-gradient(45deg, transparent calc(50% - 0.5px), rgba(214, 58, 47, 0.12) calc(50% - 0.5px), rgba(214, 58, 47, 0.12) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(-45deg, transparent calc(50% - 0.5px), rgba(214, 58, 47, 0.12) calc(50% - 0.5px), rgba(214, 58, 47, 0.12) calc(50% + 0.5px), transparent calc(50% + 0.5px));
+  background-position: center;
+}
+
+.mi-zi-ge {
+  background-image:
+    radial-gradient(circle at center, transparent 0, transparent 100%),
+    linear-gradient(to right, rgba(92, 98, 107, 0.2) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(92, 98, 107, 0.2) 1px, transparent 1px);
+}
+

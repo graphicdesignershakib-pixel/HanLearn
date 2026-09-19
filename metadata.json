@@ -1,0 +1,6 @@
+{
+  "name": "HanLearn - Chinese HSK Learning",
+  "description": "Interactive Chinese learning platform based on HSK 3.0 vocabulary with Pinyin, tones, pronunciation, Hanzi stroke order, writing practice, and sentence construction.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
