@@ -1,12 +1,12 @@
 {
-  "projectId": "valid-valve-3f38q",
-  "appId": "1:705772776435:web:27467af6040dcdd4f2c086",
-  "apiKey": "AIzaSyCbgMGNl1Ue1EvSVFLjURi7QvpKohptnus",
-  "authDomain": "valid-valve-3f38q.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-hanlearnchineseh-bd555a81-5c1c-408f-b8ae-4fc04164a42d",
-  "storageBucket": "valid-valve-3f38q.firebasestorage.app",
-  "messagingSenderId": "705772776435",
-  "measurementId": "",
-  "oAuthClientId": "705772776435-m38g1nihm44mt31d6gn4hng97qp2gkj3.apps.googleusercontent.com",
+  "projectId": "han-learn-81653",
+  "appId": "1:327188281812:web:8e8fe3de9b876c80b6fe41",
+  "apiKey": "AIzaSyBZHu8hryIXqBPowi60CLD3vM8h9WT8TEw",
+  "authDomain": "han-learn-81653.firebaseapp.com",
+  "firestoreDatabaseId": "",
+  "storageBucket": "han-learn-81653.firebasestorage.app",
+  "messagingSenderId": "327188281812",
+  "measurementId": "G-G0R4T8TK2C",
+  "oAuthClientId": "",
   "recaptchaSiteKey": ""
 }
