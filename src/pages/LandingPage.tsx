@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { navigate } from "../services/routerService";
-import { BookOpen, Layers, Sparkles, Volume2, Edit3, ArrowRight, ShieldCheck } from "lucide-react";
+import { BookOpen, Layers, Sparkles, Volume2, Edit3, ArrowRight, ShieldCheck, Lock } from "lucide-react";
 import { AudioButton } from "../components/common/AudioButton";
 import { StrokeOrderViewer } from "../components/stroke/StrokeOrderViewer";
 import { HSKBadge } from "../components/common/HSKBadge";
+import { useAuth } from "../context/AuthContext";
+import { AuthModal } from "../components/auth/AuthModal";
 
 export const LandingPage: React.FC = () => {
+  const { user } = useAuth();
+  const [authModalOpen, setAuthModalOpen] = useState(false);
+
+  const requireAuthNavigate = (targetPath: string) => {
+    if (user) {
+      navigate(targetPath);
+    } else {
+      setAuthModalOpen(true);
+    }
+  };
+
   return (
     <div className="max-w-5xl mx-auto space-y-16 py-6 md:py-12">
       {/* Educational Hero */}
@@ -25,19 +38,31 @@ export const LandingPage: React.FC = () => {
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-3.5 pt-2">
-          <button
-            type="button"
-            onClick={() => navigate("/dashboard")}
-            className="px-6 py-3 rounded-xl bg-red-600 text-white font-semibold text-sm hover:bg-red-700 transition-all shadow-sm hover:shadow flex items-center gap-2"
-          >
-            <span>Start Learning</span>
-            <ArrowRight size={16} />
-          </button>
+          {user ? (
+            <button
+              type="button"
+              onClick={() => navigate("/dashboard")}
+              className="px-6 py-3 rounded-xl bg-red-600 text-white font-semibold text-sm hover:bg-red-700 transition-all shadow-sm hover:shadow flex items-center gap-2 cursor-pointer"
+            >
+              <span>Continue Learning (Dashboard)</span>
+              <ArrowRight size={16} />
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={() => setAuthModalOpen(true)}
+              className="px-6 py-3 rounded-xl bg-red-600 text-white font-semibold text-sm hover:bg-red-700 transition-all shadow-sm hover:shadow flex items-center gap-2 cursor-pointer"
+            >
+              <Lock size={15} />
+              <span>Sign In / Register to Start</span>
+              <ArrowRight size={16} />
+            </button>
+          )}
 
           <button
             type="button"
-            onClick={() => navigate("/hsk")}
-            className="px-6 py-3 rounded-xl bg-white border border-neutral-300 text-neutral-800 font-semibold text-sm hover:bg-neutral-50 transition-all flex items-center gap-2"
+            onClick={() => requireAuthNavigate("/hsk")}
+            className="px-6 py-3 rounded-xl bg-white border border-neutral-300 text-neutral-800 font-semibold text-sm hover:bg-neutral-50 transition-all flex items-center gap-2 cursor-pointer"
           >
             <Layers size={16} className="text-neutral-500" />
             <span>Explore HSK Levels</span>
@@ -88,16 +113,16 @@ export const LandingPage: React.FC = () => {
               <AudioButton text="好" size="md" label="Play Audio" showSlowToggle />
               <button
                 type="button"
-                onClick={() => navigate("/practice/tones")}
-                className="px-3.5 py-2 text-xs font-semibold rounded-lg bg-neutral-100 text-neutral-700 hover:bg-neutral-200 transition-colors flex items-center gap-1.5"
+                onClick={() => requireAuthNavigate("/practice/tones")}
+                className="px-3.5 py-2 text-xs font-semibold rounded-lg bg-neutral-100 text-neutral-700 hover:bg-neutral-200 transition-colors flex items-center gap-1.5 cursor-pointer"
               >
                 <Volume2 size={14} />
                 <span>Practice Tone</span>
               </button>
               <button
                 type="button"
-                onClick={() => navigate("/writing/%E5%A5%BD")}
-                className="px-3.5 py-2 text-xs font-semibold rounded-lg bg-neutral-900 text-white hover:bg-neutral-800 transition-colors flex items-center gap-1.5"
+                onClick={() => requireAuthNavigate("/writing/%E5%A5%BD")}
+                className="px-3.5 py-2 text-xs font-semibold rounded-lg bg-neutral-900 text-white hover:bg-neutral-800 transition-colors flex items-center gap-1.5 cursor-pointer"
               >
                 <Edit3 size={14} />
                 <span>Write Character</span>
@@ -144,6 +169,14 @@ export const LandingPage: React.FC = () => {
           </p>
         </div>
       </section>
+
+      {/* Auth Modal for Landing Page Visitors */}
+      <AuthModal
+        isOpen={authModalOpen}
+        onClose={() => setAuthModalOpen(false)}
+        defaultTab="login"
+        defaultRole="student"
+      />
     </div>
   );
 };

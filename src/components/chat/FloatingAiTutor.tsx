@@ -13,8 +13,10 @@ import {
   Sparkles,
   Trash2,
 } from "lucide-react";
+import { useAuth } from "../../context/AuthContext";
 
 export const FloatingAiTutor: React.FC = () => {
+  const { user } = useAuth();
   const { currentPath } = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>(() =>
@@ -25,7 +27,7 @@ export const FloatingAiTutor: React.FC = () => {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // If already on /chat or /tutor, don't show the floating widget
+  // If already on /chat or /tutor, or if user is not authenticated, don't show the floating widget
   const isOnChatPage = currentPath === "/chat" || currentPath === "/tutor";
 
   useEffect(() => {
@@ -42,7 +44,7 @@ export const FloatingAiTutor: React.FC = () => {
     }
   }, [isOpen, messages, isLoading]);
 
-  if (isOnChatPage) {
+  if (isOnChatPage || !user) {
     return null;
   }
 
