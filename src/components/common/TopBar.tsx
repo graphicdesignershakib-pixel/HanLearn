@@ -15,12 +15,15 @@ import {
   LogIn,
   LogOut,
   FolderPlus,
+  Palette,
 } from "lucide-react";
 import { navigate } from "../../services/routerService";
 import { progressService } from "../../services/progressService";
 import { gamificationService } from "../../services/gamificationService";
 import { bengaliService, LanguageMode } from "../../services/bengaliService";
+import { themeService } from "../../services/themeService";
 import { GamificationModal } from "../gamification/GamificationModal";
+import { ThemeChooserModal } from "./ThemeChooserModal";
 import { useAuth } from "../../context/AuthContext";
 import { AuthModal } from "../auth/AuthModal";
 
@@ -37,8 +40,10 @@ export const TopBar: React.FC<TopBarProps> = ({
 }) => {
   const [quickSearch, setQuickSearch] = useState("");
   const [isGamifyOpen, setIsGamifyOpen] = useState(false);
+  const [isThemeOpen, setIsThemeOpen] = useState(false);
   const [lang, setLang] = useState<LanguageMode>(bengaliService.getLanguage());
   const [gamifyState, setGamifyState] = useState(gamificationService.getState());
+  const [currentTheme, setCurrentTheme] = useState(themeService.getTheme());
   const [authModalOpen, setAuthModalOpen] = useState(false);
   const [authModalRole, setAuthModalRole] = useState<"student" | "admin">("student");
   const [authModalTab, setAuthModalTab] = useState<"login" | "register">("login");
@@ -52,9 +57,13 @@ export const TopBar: React.FC<TopBarProps> = ({
     const unsubB = bengaliService.subscribe(() => {
       setLang(bengaliService.getLanguage());
     });
+    const unsubT = themeService.subscribe(() => {
+      setCurrentTheme(themeService.getTheme());
+    });
     return () => {
       unsubG();
       unsubB();
+      unsubT();
     };
   }, []);
 
@@ -92,7 +101,7 @@ export const TopBar: React.FC<TopBarProps> = ({
             onClick={() => navigate("/dashboard")}
             className="flex items-center gap-2.5 text-left group cursor-pointer"
           >
-            <div className="w-8 h-8 rounded-lg bg-red-600 text-white flex items-center justify-center font-bold font-hanzi text-lg shadow-sm">
+            <div className="w-8 h-8 rounded-lg bg-[var(--color-primary)] text-white flex items-center justify-center font-bold font-hanzi text-lg shadow-sm group-hover:scale-105 transition-transform">
               汉
             </div>
             <div>
@@ -100,7 +109,7 @@ export const TopBar: React.FC<TopBarProps> = ({
                 HanLearn
               </span>
               <span className="text-[11px] text-neutral-600 tracking-wide font-medium mt-0.5 block">
-                {isBn ? "এইচএসকে ৩.০ একাডেমি" : "HSK 3.0 Laboratory"}
+                {isBn ? "গ্রাফিক আর্টস ও এইচএসকে ৩.০" : "Graphic Arts & HSK 3.0"}
               </span>
             </div>
           </button>
@@ -128,6 +137,27 @@ export const TopBar: React.FC<TopBarProps> = ({
 
         {/* Right Stats & Quick Actions */}
         <div className="flex items-center gap-2 sm:gap-3">
+          {/* Theme & Color Chooser Button */}
+          <button
+            type="button"
+            onClick={() => setIsThemeOpen(true)}
+            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-neutral-100 hover:bg-neutral-200 text-neutral-700 text-xs font-semibold transition-colors cursor-pointer"
+            title="Choose Color Theme"
+          >
+            <Palette size={13} className="text-[var(--color-primary)]" />
+            <span className="hidden sm:inline">{isBn ? "থিম" : "Theme"}</span>
+            <div className="flex items-center -space-x-1">
+              <span
+                className="w-2.5 h-2.5 rounded-full border border-white"
+                style={{ backgroundColor: currentTheme.primaryColor }}
+              />
+              <span
+                className="w-2.5 h-2.5 rounded-full border border-white"
+                style={{ backgroundColor: currentTheme.accentColor }}
+              />
+            </div>
+          </button>
+
           {/* Bengali / English Language Toggle */}
           <button
             type="button"
@@ -135,7 +165,7 @@ export const TopBar: React.FC<TopBarProps> = ({
             className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-neutral-100 hover:bg-neutral-200 text-neutral-700 text-xs font-semibold transition-colors cursor-pointer"
             title="Toggle English / Bengali Language"
           >
-            <Globe size={13} className="text-red-600" />
+            <Globe size={13} className="text-[var(--color-primary)]" />
             <span>{isBn ? "বাংলা (BN)" : "English (EN)"}</span>
           </button>
 
@@ -239,6 +269,12 @@ export const TopBar: React.FC<TopBarProps> = ({
         onClose={() => setAuthModalOpen(false)}
         defaultRole={authModalRole}
         defaultTab={authModalTab}
+      />
+
+      {/* Theme & Color Chooser Modal */}
+      <ThemeChooserModal
+        isOpen={isThemeOpen}
+        onClose={() => setIsThemeOpen(false)}
       />
     </>
   );

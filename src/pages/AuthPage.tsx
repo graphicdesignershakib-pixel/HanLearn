@@ -16,7 +16,10 @@ import {
   UserPlus,
   BookOpen,
   Languages,
+  Palette,
 } from "lucide-react";
+import { themeService } from "../services/themeService";
+import { ThemeChooserModal } from "../components/common/ThemeChooserModal";
 
 export const AuthPage: React.FC = () => {
   const { signInWithEmail, signUpWithEmail, signInWithGoogle } = useAuth();
@@ -29,6 +32,15 @@ export const AuthPage: React.FC = () => {
   const [errorMsg, setErrorMsg] = useState("");
   const [loading, setLoading] = useState(false);
   const [lang, setLang] = useState<"bn" | "en">(bengaliService.getLanguage());
+  const [isThemeModalOpen, setIsThemeModalOpen] = useState(false);
+  const [currentTheme, setCurrentTheme] = useState(themeService.getTheme());
+
+  React.useEffect(() => {
+    const unsub = themeService.subscribe(() => {
+      setCurrentTheme(themeService.getTheme());
+    });
+    return unsub;
+  }, []);
 
   const toggleLanguage = () => {
     const nextLang = lang === "bn" ? "en" : "bn";
@@ -134,32 +146,55 @@ export const AuthPage: React.FC = () => {
       {/* Header Bar */}
       <header className="relative z-10 w-full max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-red-600 text-white font-black text-xl flex items-center justify-center shadow-lg shadow-red-900/30">
+          <div className="w-10 h-10 rounded-xl bg-[var(--color-primary)] text-white font-black text-xl flex items-center justify-center shadow-lg shadow-sky-950/40">
             汉
           </div>
           <div>
             <div className="flex items-center gap-2">
               <span className="font-extrabold text-lg tracking-tight text-white">HanLearn</span>
-              <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-red-500/20 text-red-400 border border-red-500/30">
+              <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-[var(--color-accent)] text-white">
                 HSK 3.0
               </span>
             </div>
             <p className="text-xs text-neutral-400">
-              {isBn ? "চীনা ভাষা শেখার আধুনিক প্ল্যাটফর্ম" : "Mandarin Chinese Learning Platform"}
+              {isBn ? "গ্রাফিক আর্টস একাডেমি ও চীনা ভাষা শিক্ষা" : "Govt. Graphic Arts Institute Chinese Academy"}
             </p>
           </div>
         </div>
 
-        {/* Language Switcher */}
-        <button
-          type="button"
-          onClick={toggleLanguage}
-          className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-neutral-900 border border-neutral-800 hover:border-neutral-700 text-xs font-semibold text-neutral-300 hover:text-white transition-all cursor-pointer"
-          title="Change Language"
-        >
-          <Languages size={14} className="text-red-400" />
-          <span>{lang === "bn" ? "বাংলা (BN)" : "English (EN)"}</span>
-        </button>
+        <div className="flex items-center gap-2">
+          {/* Theme Chooser */}
+          <button
+            type="button"
+            onClick={() => setIsThemeModalOpen(true)}
+            className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-neutral-900 border border-neutral-800 hover:border-neutral-700 text-xs font-semibold text-neutral-300 hover:text-white transition-all cursor-pointer"
+            title="Choose Theme"
+          >
+            <Palette size={14} className="text-[var(--color-primary)]" />
+            <span className="hidden sm:inline">{isBn ? "থিম" : "Theme"}</span>
+            <div className="flex items-center -space-x-1">
+              <span
+                className="w-2.5 h-2.5 rounded-full border border-neutral-900"
+                style={{ backgroundColor: currentTheme.primaryColor }}
+              />
+              <span
+                className="w-2.5 h-2.5 rounded-full border border-neutral-900"
+                style={{ backgroundColor: currentTheme.accentColor }}
+              />
+            </div>
+          </button>
+
+          {/* Language Switcher */}
+          <button
+            type="button"
+            onClick={toggleLanguage}
+            className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-neutral-900 border border-neutral-800 hover:border-neutral-700 text-xs font-semibold text-neutral-300 hover:text-white transition-all cursor-pointer"
+            title="Change Language"
+          >
+            <Languages size={14} className="text-[var(--color-primary)]" />
+            <span>{lang === "bn" ? "বাংলা (BN)" : "English (EN)"}</span>
+          </button>
+        </div>
       </header>
 
       {/* Center Auth Card */}
@@ -193,7 +228,7 @@ export const AuthPage: React.FC = () => {
               }}
               className={`py-2 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
                 isLogin
-                  ? "bg-red-600 text-white shadow-md shadow-red-900/40"
+                  ? "bg-[var(--color-primary)] text-white shadow-md"
                   : "text-neutral-400 hover:text-white"
               }`}
             >
@@ -208,7 +243,7 @@ export const AuthPage: React.FC = () => {
               }}
               className={`py-2 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
                 !isLogin
-                  ? "bg-red-600 text-white shadow-md shadow-red-900/40"
+                  ? "bg-[var(--color-primary)] text-white shadow-md"
                   : "text-neutral-400 hover:text-white"
               }`}
             >
@@ -400,7 +435,7 @@ export const AuthPage: React.FC = () => {
             <button
               type="submit"
               disabled={loading}
-              className="w-full mt-2 py-2.5 px-4 bg-red-600 hover:bg-red-700 text-white font-bold text-xs rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-red-900/30 transition-all cursor-pointer disabled:opacity-50"
+              className="w-full mt-2 py-2.5 px-4 bg-[var(--color-primary)] hover:bg-[var(--color-primary-hover)] text-white font-bold text-xs rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-sky-950/40 transition-all cursor-pointer disabled:opacity-50"
             >
               {loading ? (
                 <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
@@ -432,7 +467,7 @@ export const AuthPage: React.FC = () => {
                     setIsLogin(false);
                     setErrorMsg("");
                   }}
-                  className="text-red-400 hover:text-red-300 font-bold underline ml-1 cursor-pointer"
+                  className="text-[var(--color-primary)] hover:underline font-bold ml-1 cursor-pointer"
                 >
                   {isBn ? "নতুন রেজিস্ট্রেশন করুন" : "Sign Up"}
                 </button>
@@ -446,7 +481,7 @@ export const AuthPage: React.FC = () => {
                     setIsLogin(true);
                     setErrorMsg("");
                   }}
-                  className="text-red-400 hover:text-red-300 font-bold underline ml-1 cursor-pointer"
+                  className="text-[var(--color-primary)] hover:underline font-bold ml-1 cursor-pointer"
                 >
                   {isBn ? "সরাসরি লগইন করুন" : "Sign In"}
                 </button>
@@ -460,7 +495,7 @@ export const AuthPage: React.FC = () => {
       <footer className="relative z-10 w-full max-w-5xl mx-auto px-6 py-4 border-t border-neutral-900 text-center">
         <div className="flex flex-wrap items-center justify-center gap-4 text-[11px] text-neutral-500">
           <span className="flex items-center gap-1.5">
-            <ShieldCheck size={13} className="text-red-500" />
+            <ShieldCheck size={13} className="text-[var(--color-primary)]" />
             <span>{isBn ? "এনক্রিপ্টেড সিকিউরিটি" : "Encrypted Security"}</span>
           </span>
           <span>•</span>
@@ -475,6 +510,12 @@ export const AuthPage: React.FC = () => {
           </span>
         </div>
       </footer>
+
+      {/* Theme Chooser Modal */}
+      <ThemeChooserModal
+        isOpen={isThemeModalOpen}
+        onClose={() => setIsThemeModalOpen(false)}
+      />
     </div>
   );
 };
