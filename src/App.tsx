@@ -46,14 +46,27 @@ import { RealLifeChinesePage } from "./pages/RealLifeChinesePage";
 import { ChineseCulturePage } from "./pages/ChineseCulturePage";
 import { TonePitchVisualizerPage } from "./pages/TonePitchVisualizerPage";
 import { AdminResourcePage } from "./pages/AdminResourcePage";
+import { AdminDashboardPage } from "./pages/AdminDashboardPage";
+import { AdminExamBuilderPage } from "./pages/AdminExamBuilderPage";
+import { LeaderboardPage } from "./pages/LeaderboardPage";
+import { PrintableWorksheetsPage } from "./pages/PrintableWorksheetsPage";
 import { CommunityResourcesPage } from "./pages/CommunityResourcesPage";
 import { AuthProtectedGate } from "./components/auth/AuthProtectedGate";
 import { AuthPage } from "./pages/AuthPage";
 import { useAuth } from "./context/AuthContext";
+import { adminStateService } from "./services/adminStateService";
 
 export default function App() {
   const { currentPath, route } = useRouter();
-  const { user, loading } = useAuth();
+  const { user, loading, isAdmin } = useAuth();
+  const [previewAsStudent, setPreviewAsStudent] = React.useState(adminStateService.isPreviewAsStudent());
+
+  React.useEffect(() => {
+    const unsub = adminStateService.subscribe(() => {
+      setPreviewAsStudent(adminStateService.isPreviewAsStudent());
+    });
+    return unsub;
+  }, []);
 
   // If Firebase Auth is initializing, show seamless clean loader
   if (loading) {
@@ -76,14 +89,36 @@ export default function App() {
   const renderCurrentRoute = () => {
     const { path, params, query } = route;
 
+    // Default route /:
+    // If admin is logged in and not in student preview -> go to Admin Dashboard
+    // If student -> go to Student Learning Dashboard
     if (path === "/" || path === "") {
+      if (isAdmin && !previewAsStudent) {
+        return <AdminDashboardPage />;
+      }
       return <DashboardPage />;
     }
 
-    if (path === "/admin/resources" || path === "/admin") {
+    if (path === "/admin" || path === "/admin/dashboard") {
+      return (
+        <AuthProtectedGate requireAdmin>
+          <AdminDashboardPage />
+        </AuthProtectedGate>
+      );
+    }
+
+    if (path === "/admin/resources") {
       return (
         <AuthProtectedGate requireAdmin>
           <AdminResourcePage />
+        </AuthProtectedGate>
+      );
+    }
+
+    if (path === "/admin/exam-builder") {
+      return (
+        <AuthProtectedGate requireAdmin>
+          <AdminExamBuilderPage />
         </AuthProtectedGate>
       );
     }
@@ -111,6 +146,10 @@ export default function App() {
       pageContent = <HanziDeconstructorPage />;
     } else if (path === "/exam") {
       pageContent = <MockExamPage />;
+    } else if (path === "/leaderboard") {
+      pageContent = <LeaderboardPage />;
+    } else if (path === "/worksheets" || path === "/cheatsheets") {
+      pageContent = <PrintableWorksheetsPage />;
     } else if (path === "/learning-path") {
       pageContent = <HskLearningPathPage />;
     } else if (path === "/grammar") {

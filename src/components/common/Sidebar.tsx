@@ -28,12 +28,15 @@ import {
   ShieldCheck,
   Palette,
   Search,
+  Trophy,
+  Printer,
 } from "lucide-react";
 import { navigate } from "../../services/routerService";
 import { bengaliService } from "../../services/bengaliService";
 import { mistakeService } from "../../services/mistakeService";
 import { useAuth } from "../../context/AuthContext";
 import { themeService } from "../../services/themeService";
+import { adminStateService } from "../../services/adminStateService";
 import { ThemeChooserModal } from "./ThemeChooserModal";
 
 interface SidebarProps {
@@ -143,6 +146,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
           icon: Edit3,
         },
         {
+          label: "Printable Worksheets & Cheats",
+          bengaliLabel: "প্রিন্ট শিট ও চিট-শীট",
+          path: "/worksheets",
+          icon: Printer,
+          badge: "PDF",
+        },
+        {
           label: "SRS Flashcard Decks",
           bengaliLabel: "SRS ফ্ল্যাশকার্ড",
           path: "/flashcards",
@@ -243,6 +253,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
           badge: "Official",
         },
         {
+          label: "Global Leaderboard",
+          bengaliLabel: "আন্তর্জাতিক লিডারবোর্ড",
+          path: "/leaderboard",
+          icon: Trophy,
+          badge: "Global",
+        },
+        {
           label: "Rapid Mini Tests",
           bengaliLabel: "দ্রুত মিনি পরীক্ষা",
           path: "/mini-tests",
@@ -330,9 +347,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
         ...(isAdmin
           ? [
               {
-                label: "Admin Resource Management",
-                bengaliLabel: "অ্যাডমিন রিসোর্স প্যানেল",
-                path: "/admin/resources",
+                label: "Return to Admin Console",
+                bengaliLabel: "অ্যাডমিন কনসোলে ফিরে যান",
+                path: "/admin",
                 icon: ShieldCheck,
                 badge: "Admin",
               },
@@ -378,6 +395,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
   };
 
   const handleNavClick = (path: string) => {
+    if (path.startsWith("/admin")) {
+      adminStateService.setPreviewAsStudent(false);
+    }
     navigate(path);
     if (onCloseMobile) onCloseMobile();
   };

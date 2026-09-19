@@ -1,32 +1,58 @@
 import { vocabularyService } from "./vocabularyService";
 
+export interface AudioSettings {
+  rate: number; // 0.5, 0.75, 1.0, 1.25, 1.5
+  repeatCount: number; // 1, 2, 3, or -1 (infinite loop)
+}
+
 export interface PronunciationService {
   isAvailable(): boolean;
   playWord(id: string): Promise<void>;
-  playText(text: string, options?: { rate?: number }): Promise<void>;
+  playText(text: string, options?: { rate?: number; repeat?: number }): Promise<void>;
   speakWord(id: string): Promise<void>;
-  speakText(text: string, options?: { rate?: number }): Promise<void>;
+  speakText(text: string, options?: { rate?: number; repeat?: number }): Promise<void>;
   speakSentence(id: string): Promise<void>;
   playSyllable(id: string, index: number): Promise<void>;
   playSentence(id: string): Promise<void>;
   setRate(rate: number): void;
   getRate(): number;
+  setRepeatCount(count: number): void;
+  getRepeatCount(): number;
+  getSettings(): AudioSettings;
   stop(): void;
   onStateChange(listener: (isPlaying: boolean, currentId?: string) => void): () => void;
+  onSettingsChange(listener: (settings: AudioSettings) => void): () => void;
 }
+
+const STORAGE_KEY_AUDIO_SETTINGS = "hanlearn_audio_settings_v1";
 
 export class WebSpeechPronunciationService implements PronunciationService {
   private rate: number = 1.0;
+  private repeatCount: number = 1;
   private isSpeaking: boolean = false;
+  private isCancelled: boolean = false;
   private listeners: Set<(isPlaying: boolean, currentId?: string) => void> = new Set();
+  private settingsListeners: Set<(settings: AudioSettings) => void> = new Set();
   private currentPlayingId?: string;
 
   constructor() {
-    if (typeof window !== "undefined" && window.speechSynthesis) {
-      // Warm up voices
-      window.speechSynthesis.onvoiceschanged = () => {
-        // Voices loaded
-      };
+    if (typeof window !== "undefined") {
+      try {
+        const saved = localStorage.getItem(STORAGE_KEY_AUDIO_SETTINGS);
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (parsed.rate && typeof parsed.rate === "number") this.rate = parsed.rate;
+          if (parsed.repeatCount && typeof parsed.repeatCount === "number") this.repeatCount = parsed.repeatCount;
+        }
+      } catch (e) {
+        console.warn("Failed to load audio settings", e);
+      }
+
+      if (window.speechSynthesis) {
+        window.speechSynthesis.onvoiceschanged = () => {
+          // Voices loaded
+        };
+      }
     }
   }
 
@@ -36,13 +62,49 @@ export class WebSpeechPronunciationService implements PronunciationService {
 
   public setRate(rate: number): void {
     this.rate = Math.max(0.5, Math.min(2.0, rate));
+    this.persistSettings();
   }
 
   public getRate(): number {
     return this.rate;
   }
 
+  public setRepeatCount(count: number): void {
+    this.repeatCount = count;
+    this.persistSettings();
+  }
+
+  public getRepeatCount(): number {
+    return this.repeatCount;
+  }
+
+  public getSettings(): AudioSettings {
+    return {
+      rate: this.rate,
+      repeatCount: this.repeatCount,
+    };
+  }
+
+  private persistSettings() {
+    if (typeof window !== "undefined") {
+      try {
+        localStorage.setItem(
+          STORAGE_KEY_AUDIO_SETTINGS,
+          JSON.stringify({ rate: this.rate, repeatCount: this.repeatCount })
+        );
+      } catch {}
+    }
+    const settings = this.getSettings();
+    this.settingsListeners.forEach((l) => l(settings));
+  }
+
+  public onSettingsChange(listener: (settings: AudioSettings) => void): () => void {
+    this.settingsListeners.add(listener);
+    return () => this.settingsListeners.delete(listener);
+  }
+
   public stop(): void {
+    this.isCancelled = true;
     if (typeof window !== "undefined" && window.speechSynthesis) {
       window.speechSynthesis.cancel();
     }
@@ -60,17 +122,11 @@ export class WebSpeechPronunciationService implements PronunciationService {
     this.listeners.forEach((l) => l(playing, this.currentPlayingId));
   }
 
-  public async playText(text: string, options?: { rate?: number }): Promise<void> {
-    if (!this.isAvailable()) {
-      console.warn("SpeechSynthesis is not supported in this environment.");
-      return;
-    }
-
+  private speakOnce(text: string, rate: number): Promise<void> {
     return new Promise((resolve) => {
-      this.stop();
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = "zh-CN";
-      utterance.rate = options?.rate ?? this.rate;
+      utterance.rate = rate;
 
       // Try selecting a Mandarin voice if available
       const voices = window.speechSynthesis.getVoices();
@@ -86,18 +142,51 @@ export class WebSpeechPronunciationService implements PronunciationService {
       };
 
       utterance.onend = () => {
-        this.setPlaying(false);
         resolve();
       };
 
       utterance.onerror = (e) => {
         console.warn("Speech synthesis notice:", e);
-        this.setPlaying(false);
         resolve();
       };
 
       window.speechSynthesis.speak(utterance);
     });
+  }
+
+  public async playText(text: string, options?: { rate?: number; repeat?: number }): Promise<void> {
+    if (!this.isAvailable()) {
+      console.warn("SpeechSynthesis is not supported in this environment.");
+      return;
+    }
+
+    this.stop();
+    this.isCancelled = false;
+
+    const rate = options?.rate ?? this.rate;
+    const repeat = options?.repeat ?? this.repeatCount;
+
+    this.setPlaying(true, text);
+
+    if (repeat === -1) {
+      // Continuous loop until stop() is invoked
+      while (!this.isCancelled) {
+        await this.speakOnce(text, rate);
+        if (this.isCancelled) break;
+        await new Promise((r) => setTimeout(r, 400));
+      }
+    } else {
+      const times = Math.max(1, repeat);
+      for (let i = 0; i < times; i++) {
+        if (this.isCancelled) break;
+        await this.speakOnce(text, rate);
+        if (i < times - 1 && !this.isCancelled) {
+          await new Promise((r) => setTimeout(r, 350));
+        }
+      }
+    }
+
+    this.setPlaying(false);
   }
 
   public async speakText(text: string, options?: { rate?: number }): Promise<void> {

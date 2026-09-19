@@ -16,14 +16,17 @@ import {
   LogOut,
   FolderPlus,
   Palette,
+  Headphones,
 } from "lucide-react";
 import { navigate } from "../../services/routerService";
 import { progressService } from "../../services/progressService";
 import { gamificationService } from "../../services/gamificationService";
 import { bengaliService, LanguageMode } from "../../services/bengaliService";
 import { themeService } from "../../services/themeService";
+import { audioService } from "../../services/audioService";
 import { GamificationModal } from "../gamification/GamificationModal";
 import { ThemeChooserModal } from "./ThemeChooserModal";
+import { AudioSpeedModal } from "./AudioSpeedModal";
 import { useAuth } from "../../context/AuthContext";
 import { AuthModal } from "../auth/AuthModal";
 
@@ -41,6 +44,8 @@ export const TopBar: React.FC<TopBarProps> = ({
   const [quickSearch, setQuickSearch] = useState("");
   const [isGamifyOpen, setIsGamifyOpen] = useState(false);
   const [isThemeOpen, setIsThemeOpen] = useState(false);
+  const [isAudioOpen, setIsAudioOpen] = useState(false);
+  const [audioSettings, setAudioSettings] = useState(audioService.getSettings());
   const [lang, setLang] = useState<LanguageMode>(bengaliService.getLanguage());
   const [gamifyState, setGamifyState] = useState(gamificationService.getState());
   const [currentTheme, setCurrentTheme] = useState(themeService.getTheme());
@@ -60,10 +65,14 @@ export const TopBar: React.FC<TopBarProps> = ({
     const unsubT = themeService.subscribe(() => {
       setCurrentTheme(themeService.getTheme());
     });
+    const unsubA = audioService.onSettingsChange((s) => {
+      setAudioSettings(s);
+    });
     return () => {
       unsubG();
       unsubB();
       unsubT();
+      unsubA();
     };
   }, []);
 
@@ -156,6 +165,27 @@ export const TopBar: React.FC<TopBarProps> = ({
                 style={{ backgroundColor: currentTheme.accentColor }}
               />
             </div>
+          </button>
+
+          {/* Audio Speed & Loop Control Quick Toggle */}
+          <button
+            type="button"
+            onClick={() => setIsAudioOpen(true)}
+            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-sky-50 hover:bg-sky-100 border border-sky-200/80 text-sky-900 text-xs font-semibold transition-colors cursor-pointer"
+            title="Smart Audio Speed & Loop Repeats"
+          >
+            <Headphones size={13} className="text-sky-600" />
+            <span className="font-extrabold text-sky-700">{audioSettings.rate}x</span>
+            {audioSettings.repeatCount > 1 && (
+              <span className="text-[10px] bg-sky-200 text-sky-800 px-1 rounded font-bold">
+                {audioSettings.repeatCount}x
+              </span>
+            )}
+            {audioSettings.repeatCount === -1 && (
+              <span className="text-[10px] bg-sky-200 text-sky-800 px-1 rounded font-bold">
+                ∞
+              </span>
+            )}
           </button>
 
           {/* Bengali / English Language Toggle */}
@@ -275,6 +305,12 @@ export const TopBar: React.FC<TopBarProps> = ({
       <ThemeChooserModal
         isOpen={isThemeOpen}
         onClose={() => setIsThemeOpen(false)}
+      />
+
+      {/* Smart Audio Speed & Repeat Modal */}
+      <AudioSpeedModal
+        isOpen={isAudioOpen}
+        onClose={() => setIsAudioOpen(false)}
       />
     </>
   );
